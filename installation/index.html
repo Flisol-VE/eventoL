@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Installation - EventoL</title>
+  
+
+  <link rel="shortcut icon" href="../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Installation";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> EventoL</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Installation</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#db">DB</a></li>
+                
+                    <li><a class="toctree-l4" href="#use-a-docker-container-for-db">Use a docker container for DB</a></li>
+                
+                    <li><a class="toctree-l4" href="#installation-on-debian-like-systems-jessie">Installation on Debian like systems (jessie+):</a></li>
+                
+                    <li><a class="toctree-l4" href="#if-you-want-some-administration-tool-for-the-database">If you want some administration tool for the database</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#pythondjango-project-dependencies">Python/Django project dependencies</a></li>
+                
+                    <li><a class="toctree-l4" href="#install-python-requirements">Install python requirements</a></li>
+                
+                    <li><a class="toctree-l4" href="#if-you-have-any-conflict-with-django-generic-confirmation">If you have any conflict with django-generic-confirmation</a></li>
+                
+                    <li><a class="toctree-l4" href="#bower">Bower</a></li>
+                
+                    <li><a class="toctree-l4" href="#for-compiling-less-on-dev">For compiling LESS on dev</a></li>
+                
+                    <li><a class="toctree-l4" href="#compiling">Compiling</a></li>
+                
+                    <li><a class="toctree-l4" href="#django-stuff">Django stuff</a></li>
+                
+                    <li><a class="toctree-l4" href="#if-you-want-to-populate-the-db-with-some-initial-example-data">If you want to populate the db with some initial example data</a></li>
+                
+                    <li><a class="toctree-l4" href="#update-tranlations">Update tranlations</a></li>
+                
+            
+            </ul>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ConfiguraciónRápidaDeSede/">Configuración rápida de Sede</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ConfiguraciónDeSede/">Configuración de Sede</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../RegistraciónDelAsistente/">Registración del Asistente</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../RegistraciónDelColaborador/">Registración del Colaborador</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../RegistraciónDelInstalador/">Registración del Instalador</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../CargarUnaInstalación/">Cargar una instalación</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../AdministrarAsistencia/">Administrar Asistencia</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../PropuestasDeCharlas/">Propuestas de Charlas</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ListaVotaciónDeCharlas/">Lista Votación de Charlas</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../AdministraciónDeAsistencia/">Administración de asistencia</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../AdministrarSalasAulas/">Administrar Salas Aulas</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ConfirmarPropuestasDeCharlas/">Confirmar propuestas de charlas</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ConfirmarElCronograma/">Confirmar el cronograma</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ExportaciónDeDatos/">Exportación de datos</a>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">EventoL</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Installation</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="db">DB</h1>
+<p>We're using postgis for events geolocalization. For development there are 2 options:</p>
+<h2 id="use-a-docker-container-for-db">Use a docker container for DB</h2>
+<p>Run the container:</p>
+<pre><code class="sh">docker run -dit --name EventoL --hostname EventoL -p 5432:5432 reyiyo/eventol-postgre
+</code></pre>
+
+<p>And the database will be magically available on localhost:5432!</p>
+<p>Dependencies needed on dev machine (tested for Debian jessie and sid):</p>
+<pre><code class="sh">$ sudo apt-get install python build-essential python-setuptools python-dev python-pip
+$ sudo apt-get install binutils libproj-dev gdal-bin libgeoip1 python-gdal
+$ sudo apt-get install libjpeg-dev libpng3 libpng12-dev libfreetype6-dev zlib1g-dev
+$ sudo apt-get install jpegoptim optipng
+$ sudo apt-get install postgresql-server-dev-9.1
+</code></pre>
+
+<h2 id="installation-on-debian-like-systems-jessie">Installation on Debian like systems (jessie+):</h2>
+<p>Install postgre, python and some dependencies</p>
+<pre><code class="sh">$ sudo apt-get install python build-essential python-setuptools python-dev python-pip
+$ sudo apt-get install postgresql postgresql-client-9.4 postgresql-server-dev-9.4 
+$ sudo apt-get install binutils libproj-dev gdal-bin libgeoip1 python-gdal
+$ sudo apt-get install postgresql-9.4-postgis-2.1
+$ sudo apt-get install libjpeg-dev libpng3 libpng12-dev libfreetype6-dev zlib1g-dev
+$ sudo apt-get install jpegoptim optipng
+</code></pre>
+
+<p>Configure postgre</p>
+<pre><code class="sh">$ sudo passwd postgres
+$ sudo su - postgres
+
+$ pg_dropcluster --stop 9.4 main
+$ pg_createcluster --start -e UTF-8 9.4 main
+
+$ psql postgres
+
+postgres=# ALTER ROLE postgres PASSWORD '&lt;password&gt;';
+(ctrl-d)
+$ createuser --createdb flisol
+postgres=# ALTER ROLE flisol PASSWORD '&lt;password&gt;';
+
+$ createdb  template_postgis
+$ psql template_postgis
+template_postgis=# CREATE EXTENSION postgis;
+template_postgis=# CREATE EXTENSION postgis_topology;
+
+$ psql
+
+postgres# CREATE USER flisol PASSWORD 'my_passwd';
+postgres# CREATE DATABASE flisol OWNER flisol TEMPLATE template_postgis ENCODING 'utf8';
+</code></pre>
+
+<h2 id="if-you-want-some-administration-tool-for-the-database">If you want some administration tool for the database</h2>
+<pre><code class="sh">$ sudo apt-get install pgadmin3
+</code></pre>
+
+<h1 id="pythondjango-project-dependencies">Python/Django project dependencies</h1>
+<h3 id="install-python-requirements">Install python requirements</h3>
+<pre><code class="sh">$ pip install -U -r requirements.txt --allow-external django-generic-confirmation --allow-unverified django-generic-confirmation
+</code></pre>
+
+<h3 id="if-you-have-any-conflict-with-django-generic-confirmation">If you have any conflict with django-generic-confirmation</h3>
+<pre><code class="sh">$ git clone https://github.com/arneb/django-generic-confirmation.git
+$ cd django-generic-confirmation
+$ python setup.py install
+$ cd ..
+$ rm -rf django-generic-confirmation
+$ pip install -r requirements.txt
+</code></pre>
+
+<h3 id="bower">Bower</h3>
+<p>We're using bower for frontend dependencies. So:</p>
+<ul>
+<li><a href="https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager">Install nodejs and npm</a></li>
+<li><a href="http://bower.io/#install-bower">Install bower</a></li>
+<li>Install bower dependencies:</li>
+</ul>
+<pre><code class="sh">@/project-root$ bower install
+</code></pre>
+
+<h3 id="for-compiling-less-on-dev">For compiling LESS on dev</h3>
+<pre><code class="sh">$ sudo npm install -g less
+
+</code></pre>
+
+<h3 id="compiling">Compiling</h3>
+<p>Every time you make a change to a less file, you'll need to compile it again. Also, the first time you clone the repo, you'll need to compile them</p>
+<pre><code class="sh">@/project-root$ lessc manager/static/manager/less/flisol.less &gt; manager/static/manager/css/flisol.css
+@/project-root$ lessc manager/static/manager/less/flisol-bootstrap.less &gt; manager/static/manager/css/flisol-bootstrap.css
+</code></pre>
+
+<h3 id="django-stuff">Django stuff</h3>
+<p>First of all, change in settings.py URLS, PATHS, DATABASE and EMAIL related settings with your specific configuration.</p>
+<p>Then, model related stuff:</p>
+<pre><code class="sh">$ python manage.py migrate
+
+$ python manage.py makemigrations manager
+
+$ python manage.py makemigrations easy_thumbnails
+
+$ python manage.py migrate
+
+$ python manage.py syncdb
+
+$ python manage.py collectstatic
+</code></pre>
+
+<p>Importing all cities for django-cities (geolocalization)</p>
+<pre><code class="sh">$ python manage.py cities --import=all --force #This may take a long time!
+</code></pre>
+
+<h3 id="if-you-want-to-populate-the-db-with-some-initial-example-data">If you want to populate the db with some initial example data</h3>
+<pre><code class="sh">$ python manage.py loaddata manager/initial_data.json
+</code></pre>
+
+<h3 id="update-tranlations">Update tranlations</h3>
+<pre><code class="sh">$ django-admin makemessages --locale=es
+$ django-admin compilemessages
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../ConfiguraciónRápidaDeSede/" class="btn btn-neutral float-right" title="Configuración rápida de Sede"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../ConfiguraciónRápidaDeSede/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>
