@@ -6,7 +6,8 @@ It is in developement state and this year (2014) is going to be used for managin
 Status
 -------
 
-[![Requirements Status](https://requires.io/github/reyiyo/eventoL/requirements.svg?branch=master)](https://requires.io/github/reyiyo/eventoL/requirements/?branch=master) [![Stories in Ready](https://badge.waffle.io/GNUtn/eventoL.svg?label=ready&title=Ready)](http://waffle.io/GNUtn/eventoL) 
+[![Requirements Status](https://requires.io/github/reyiyo/eventoL/requirements.svg?branch=master)](https://requires.io/github/reyiyo/eventoL/requirements/?branch=master) [![Stories in Ready](https://badge.waffle.io/GNUtn/eventoL.svg?label=ready&title=Ready)](http://waffle.io/GNUtn/eventoL)
+[![Build Status](https://travis-ci.org/xombra/block.svg)](https://travis-ci.org/xombra/block)
 
 Features
 --------------
