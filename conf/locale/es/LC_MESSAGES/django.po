@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: EventoL\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-06 13:59-0300\n"
-"PO-Revision-Date: 2015-05-06 14:01-0300\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2015-11-28 13:52-0400\n"
+"Last-Translator: Xombra <xombra.com@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: manager/forms.py:32
 msgid "Search Attendee"
@@ -43,7 +43,7 @@ msgstr "País"
 
 #: manager/models.py:36
 msgid "State"
-msgstr "Provincia"
+msgstr "Provincia/Estado"
 
 #: manager/models.py:37 manager/templates/base-main.html:65
 #: manager/templates/event/info.html:3 manager/templates/event/info.html:4
@@ -106,7 +106,7 @@ msgstr "URL"
 
 #: manager/models.py:48
 msgid "URL for the sede i.e. CABA"
-msgstr "URL para la sede (ej. rosario)"
+msgstr "URL para la sede (ej. San Cristóbal)"
 
 #: manager/models.py:51
 msgid "External URL"
@@ -335,7 +335,9 @@ msgstr "Software"
 
 #: manager/models.py:202
 msgid "Select all the software you can install. Hold Ctrl key to select many"
-msgstr "Seleccione todo el software que sepa instalar."
+msgstr ""
+"Seleccionar todo el software que conozca para instalar. Mantener pulsada la "
+"tecla Ctrl para seleccionar varios"
 
 #: manager/models.py:208 manager/models.py:217
 msgid "Installer"
@@ -352,7 +354,7 @@ msgstr "Hardware"
 
 #: manager/models.py:216
 msgid "The owner of the installed hardware"
-msgstr "El dueño de la máquina instalada"
+msgstr "Propietario de la máquina instalada"
 
 #: manager/models.py:219
 msgid "Notes"
@@ -362,7 +364,7 @@ msgstr "Notas"
 msgid "Any information or trouble you found and consider relevant to document"
 msgstr ""
 "Cualquier información o problema que haya encontrado durante la instalación "
-"y considere relevante documentar"
+"y considere relevante su documentación"
 
 #: manager/models.py:226
 msgid "Installation"
@@ -569,7 +571,7 @@ msgstr "Preguntas Frecuentes"
 
 #: manager/templates/base-main.html:49
 msgid "Registration"
-msgstr "Registración"
+msgstr "Registro"
 
 #: manager/templates/base-main.html:51 manager/templates/talks/schedule.html:5
 msgid "Talks Schedule"
@@ -577,7 +579,7 @@ msgstr "Cronograma de Charlas"
 
 #: manager/templates/base-main.html:54
 msgid "Submit your talk!"
-msgstr "Proponé tu charla!"
+msgstr "Proponer tu charla!"
 
 #: manager/templates/base-main.html:59
 msgid "About FLISoL"
@@ -610,6 +612,7 @@ msgstr "Cerrar sesión"
 msgid "Talks List"
 msgstr "Lista de charlas"
 
+# manage assistance
 #: manager/templates/base-main.html:100
 msgid "Administrar asistencia"
 msgstr "Administrar asistencia"
@@ -628,7 +631,7 @@ msgstr "Ser instalador"
 
 #: manager/templates/base-main.html:126
 msgid "Follow Us!"
-msgstr "Seguinos!"
+msgstr "Síganos!"
 
 #: manager/templates/base-main.html:134
 msgid "Contact Us!"
@@ -674,7 +677,7 @@ msgstr ""
 "Muchas gracias por registrarse para el FLISoL.\n"
 "\n"
 "Por favor, confirme su registro haciendo click en el siguiente enlace\n"
-"o copie y pegue el mismo en la barra de direcciones de su navegador:\n"
+"o copie y pegue el enlace en la barra de direcciones de su navegador:\n"
 
 #: manager/templates/registration/attendee-registration.html:5
 #: manager/templates/registration/attendee-registration.html:7
@@ -695,7 +698,7 @@ msgstr "Registro de Instaladores por un colaborador"
 
 #: manager/templates/registration/closed-registration.html:3
 msgid "Registration Closed"
-msgstr "Registración Cerrada"
+msgstr "Registro Cerrado"
 
 #: manager/templates/registration/closed-registration.html:6
 msgid ""
@@ -704,9 +707,9 @@ msgid ""
 "page. You can find more\n"
 "            info"
 msgstr ""
-"La registración para este evento ya está\n"
-"            cerrada o la sede no está aceptando registraciones a través de "
-"esta página. Podrás encontrar más\n"
+"El registro para este evento ya está\n"
+"            cerrada o la sede no está aceptando registros a través de esta "
+"página. Podrás encontrar más\n"
 "            información"
 
 #: manager/templates/registration/closed-registration.html:8
@@ -747,7 +750,7 @@ msgstr "registrarte como Instalador"
 
 #: manager/templates/registration/login.html:38
 msgid "Forgot your password?"
-msgstr "Olvidaste tu contraseña?"
+msgstr "Olvidó su contraseña?"
 
 #: manager/templates/registration/password_reset/complete.html:3
 msgid "Password reset completed"
@@ -764,8 +767,8 @@ msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used.  Please request a new password reset."
 msgstr ""
-"El link para reestablecer la contraseña es inválido. Probablemente porqueya "
-"ha sido usado. Por favor, intente reestablecer la contraseña nuevamente."
+"El enlace para restablecer la contraseña es inválido. Probablemente ya ha "
+"sido usado. Por favor, intente restablecer la contraseña nuevamente."
 
 #: manager/templates/registration/password_reset/confirm_form.html:3
 msgid "Pick a new password"
@@ -775,19 +778,19 @@ msgstr "Elija una nueva contraseña"
 #: manager/templates/registration/password_reset/reset.html:3
 #: manager/templates/registration/password_reset/reset.html:5
 msgid "Reset Password"
-msgstr "Reestablecer Contraseña"
+msgstr "Restablecer Contraseña"
 
 #: manager/templates/registration/password_reset/done.html:3
 msgid "Password reset successful"
-msgstr "Contraseña reestablicida exitosamente"
+msgstr "Contraseña restablecida exitosamente"
 
 #: manager/templates/registration/password_reset/done.html:7
 msgid ""
 "We've emailed you instructions for setting your password. You should be "
 "receiving them shortly."
 msgstr ""
-"Te hemos enviado por mail las instrucciones para reestablecer tu contraseña."
-"Las deberías estar recibiendo en breve."
+"Le hemos enviado por email las instrucciones para restablecer su contraseña. "
+"Debería estar recibiendo la información en breve."
 
 #: manager/templates/registration/password_reset/done.html:11
 msgid ""
@@ -942,7 +945,7 @@ msgstr "No hay ninguna propuesta de charla todavía."
 
 #: manager/templates/talks/talks_home.html:166
 msgid "Submit yours!"
-msgstr "Proponé la tuya!"
+msgstr "Proponer la suya!"
 
 #: manager/views.py:108 manager/views.py:228
 msgid "You've been registered successfully!"
@@ -951,8 +954,8 @@ msgstr "Se ha registrado satisfactoriamente!"
 #: manager/views.py:112 manager/views.py:238
 msgid "You haven't been registered successfully (check form errors)"
 msgstr ""
-"No se ha podido completar la registración. Por favor, verifique los errores "
-"en el formulario."
+"No se ha podido completar el  registro. Por favor, verifique los errores en "
+"el formulario."
 
 #: manager/views.py:159
 msgid "The talk was registered successfully!"
@@ -989,7 +992,7 @@ msgstr ""
 
 #: manager/views.py:271
 msgid "You've became an installer!"
-msgstr "Ahora sos instalador!"
+msgstr "Ahora es instalador!"
 
 #: manager/views.py:276
 msgid "You not became an installer (check form errors)"
@@ -1012,23 +1015,23 @@ msgid ""
 "We've sent you an email with the confirmation link. Please click or copy and "
 "paste it in your browser to confirm the registration."
 msgstr ""
-"Hemos enviado un correo electrónico con el link de confirmación. Por favor "
-"haga click en el mismo o cópielo y péguelo en su \n"
-"                navegador para confirmar la registración."
+"Hemos enviado un correo electrónico con enlace de confirmación. Por favor "
+"haga click en el mismo, o cópielo y péguelo en su \n"
+"                navegador para confirmar el registro."
 
 #: manager/views.py:334 manager/views.py:481 manager/views.py:499
 msgid "The attendee hasn't been registered successfully (check form errors)"
 msgstr ""
-"Hubo algún error al procesar la registración. Por favor verifique los "
-"errores en el formulario."
+"Hubo algún error al procesar el registro. Por favor verifique los errores en "
+"el formulario."
 
 #: manager/views.py:344
 msgid ""
 "Thanks for your confirmation! You don't need to bring any paper to the "
 "event. You'll be asked for the email you registered with"
 msgstr ""
-"Gracias por confirmar! No es necesario llevar ningún papel el día del evento."
-"Te preguntarán con qué mail te registraste."
+"Gracias por confirmar! No es necesario llevar ningún papel el día del "
+"evento. Te preguntarán con qué email te registraste."
 
 #: manager/views.py:356
 msgid ""
@@ -1036,8 +1039,8 @@ msgid ""
 "through this page. Please contact the Sede Organization Team to submit it."
 msgstr ""
 "La propuesta de charlas ya está cerrada o la sede no está aceptando "
-"propuestas a través de esta página. Por favor, ponete en contacto con el "
-"equipo de organización de tu sede para enviarla."
+"propuestas nuevas a través de esta página. Por favor, contactar al  equipo "
+"de organización de la sede para enviarla."
 
 #: manager/views.py:366 manager/views.py:390
 msgid "The proposal hasn't been registered successfully (check form errors)"
