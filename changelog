@@ -1,0 +1,2522 @@
+commit eb8742ae1b6d749db167a9056b14adb06fe1a926 (HEAD, origin/master, origin/HEAD, master)
+Author: Xombra <xombra.com@gmail.com>
+Date:   Sat Nov 28 13:52:36 2015 -0430
+
+    * cambio de modismo a palabras genericas
+
+commit f3f8688036ee65f368cc3691f25cf0fea694f373
+Author: Federico Gonzalez <federicogonzalez761@gmail.com>
+Date:   Tue Oct 27 20:30:19 2015 -0300
+
+    Add waffle status (issues)
+
+commit 1ac0502994af86b9e3c818d0e8a1437134f921a8
+Author: Federico Gonzalez <federicogonzalez761@gmail.com>
+Date:   Tue Oct 27 20:25:01 2015 -0300
+
+    Update README.md
+
+commit 64149895deb8d45240e08d05a98e704fa9dbc266
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Thu Oct 22 22:16:26 2015 -0300
+
+    Transfer ownership
+
+commit ff08f93223fd68250107c5806e6673faf4b0bfc9
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Wed Jun 24 17:31:15 2015 -0300
+
+    fix error with filter
+
+commit eb9fe4dc66879a98e090127fbdb720acb3183874
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Wed Jun 24 17:28:51 2015 -0300
+
+    Reporte full para una sede
+
+commit 0552a01c156d097a5fbbdf5145883ba3d2376b23
+Merge: c06ae27 8ca4c3f
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Wed Jun 24 17:19:53 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL
+    
+    Conflicts:
+    	manager/api/views.py
+
+commit c06ae273e94d0211362e7d3f9d087b06150baba8
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Wed Jun 24 17:18:43 2015 -0300
+
+    reporte de charlas y staff por sede
+
+commit 8ca4c3fd8e40a29cf6a5c90360327ef0009d5502
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Wed Jun 24 17:16:26 2015 -0300
+
+    reporte de charlas y staff por sede
+
+commit 0a03bb3228ac30b2b595427fe2ac74ad075eff75
+Merge: 3ddfeb6 2cc643c
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Wed Jun 24 17:01:00 2015 -0300
+
+    Merge pull request #117 from FedeG/master
+    
+    Fix error de filtrado por sede en los reportes
+
+commit 2cc643cab1c3524c4cb6ff345f19cf2104421c25
+Author: FedeG <federicog@exo.com.ar>
+Date:   Wed May 27 12:50:23 2015 -0300
+
+    #115 - Fix error de filtrado por sede (Mejorado) + migraciones del modelo
+
+commit 68c52e14ddf742bf50809a0b2d9e73c4fc38a96f
+Author: FedeG <federicog@exo.com.ar>
+Date:   Wed May 27 12:45:29 2015 -0300
+
+    #115 - Deshboard con datos de attendee actuales
+
+commit ccc8ab790bdb14f9d1c5989926b69412f92934e8
+Author: FedeG <federicog@exo.com.ar>
+Date:   Wed May 27 12:44:48 2015 -0300
+
+    #115 - Fix error de filtrado por sede
+    
+    
+    Error de filtrado de datos
+
+commit 3ddfeb68eab0809a93287d2f73196eabd2bab90d
+Merge: 6a4d1bd 29ce846
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Tue May 26 14:41:25 2015 -0300
+
+    Merge pull request #116 from FedeG/master
+    
+    Solución a los errores de reportes #115
+
+commit 29ce846759fb0bdf9a2cbd3074693f50f94bff39
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue May 26 14:36:03 2015 -0300
+
+     #115 - Fix error de reportes ( closes  #115 )
+
+commit 6a4d1bd66049554025f1f2f17264e749a6773bb9
+Merge: 038d1cf d0c21cd
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Mon May 18 15:05:58 2015 -0300
+
+    Merge pull request #111 from FedeG/develop
+    
+    Traducciones para la parte de presentaciones
+
+commit d0c21cd1e51eaed251fb7acd47ff84b3455c6f28
+Author: FedeG <federicog@exo.com.ar>
+Date:   Wed May 6 14:01:44 2015 -0300
+
+    Traducciones para las presentaciones (#17)
+
+commit 270563a4089e6a97dfd3f7ade933cd00bf715de9
+Merge: ff42472 038d1cf
+Author: FedeG <federicog@exo.com.ar>
+Date:   Wed May 6 13:58:05 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into develop
+
+commit 038d1cf8ef90ef9e3c83061ff59643787eead128
+Merge: 11bf711 91d3bcf
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Wed May 6 13:47:43 2015 -0300
+
+    Merge pull request #109 from FedeG/presentation_and_edit_talks
+    
+    Presentaciones y edición de charlas confirmadas
+
+commit 91d3bcfa92935765ba32a787d1cb250499cdda2c
+Merge: 6703c4d 11bf711
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun May 3 19:50:52 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into presentation_and_edit_talks
+
+commit ff42472627b0ed87245d08de3c07ff4cd044b368
+Merge: 0517a58 11bf711
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun May 3 19:49:58 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into develop
+
+commit 11bf71163f8fa11afedceffd58ef9bec58d6a700
+Merge: 5ae8de9 79a137f
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sat May 2 21:12:17 2015 -0300
+
+    Merge pull request #108 from FedeG/develop
+    
+    Api 2.0
+
+commit 0517a5883abf98034ec8002d6b9d99b101ac4729
+Merge: e04d4cb 5ae8de9
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Apr 28 05:38:40 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into develop
+
+commit 6703c4db8fd91407ca71a0e9514a3d0adb00ac18
+Merge: 130488e 5ae8de9
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Apr 28 05:38:16 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into presentation_and_edit_talks
+
+commit 130488ea712bb2d0fe1fa3a998a70b4d432018db
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Apr 28 00:38:11 2015 -0300
+
+    Votos solo cuando todavia el evento no paso
+
+commit f21ba42608ac81ce4d4eb413ad3c46c60d763876
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Apr 28 00:33:39 2015 -0300
+
+    Links limitados por si ya paso el evento
+
+commit 774cbc164f3fbba8f0f1b5f5af2eab25dd73d3b0
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Apr 28 00:28:09 2015 -0300
+
+    Links para desconfirmar charla
+
+commit 2d37c80d4d42194cebc41c9dd44501375c6e4648
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Apr 28 00:28:02 2015 -0300
+
+    Vista para desconfirmar charla
+
+commit e26be40413885079c580a88f36a0c03c3296f7ee
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Apr 28 00:27:53 2015 -0300
+
+    Url para desconfirmar charla
+
+commit 16d576c03d7fa290ea68c3a9cc974b69f1b81d5d
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Apr 28 00:10:56 2015 -0300
+
+    Link para edición de propuesta
+
+commit 58132595c4bd984a6bdee4a1caa393857aaabab2
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Apr 28 00:10:42 2015 -0300
+
+    Vista para edición de propuesta
+
+commit 155a65b7e811122dccfe079983dc612379ad1603
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Apr 28 00:10:31 2015 -0300
+
+    Url para edición de propuesta
+
+commit e04d4cb8e76ea0a42f9a349a9d430e4d03842c85
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 23:53:56 2015 -0300
+
+    Cambio de template para por subir, descargar y ver presentación y ademas editar los datos de las charlas confirmadas
+
+commit 55504f2f48e8969b7e8b3222077b2399d22087a8
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 23:52:39 2015 -0300
+
+    Vista para subir presentación
+
+commit a52216a5cbb11e8c44b81fe3ebe07f5fd87ac48a
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 23:51:39 2015 -0300
+
+    Uso de presentation form para subir a las charlas
+
+commit f15b0403756664436efbc2e9d5cf76d1868a8739
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 23:51:11 2015 -0300
+
+    url para subir presentaciones
+
+commit 11a3114ffa3ddf6fb2290c3e4dffc207d5c1a359
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 23:51:03 2015 -0300
+
+    template de formulario para subir presentaciones
+
+commit 5963e3628c00cce25e28462ef528ff88ea26db0f
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 23:50:47 2015 -0300
+
+    Formulario para subir presentaciones
+
+commit 7f9cd18a5e8d6d3e5cf633ddbc1a4068746e13a6
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 23:50:30 2015 -0300
+
+    Ignore de /media para prueba de archivos subidos
+
+commit 79a137f19fd0f61ad0806f8f079038a3a9e762d1
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 18:11:04 2015 -0300
+
+    Uso de la api en la template de reportes
+
+commit e7fba0235c9aec71a58ac32c80bc4078942e87a8
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 18:10:53 2015 -0300
+
+    Reduccion de vista para uso de la api en la template
+
+commit bd91f80b29bbda63c8fbc03a0698b81e40ed4ad5
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 18:10:25 2015 -0300
+
+    Metodo importado desde el builder y generalizado en ese modulo
+
+commit bbcdf91b7acdbd3dd028e7fa639cc312c2d206c5
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 18:09:39 2015 -0300
+
+    Modulo con los reduces de cada modelo que lo requiera
+
+commit a91a4df78fa0197c7e939374e117f7c7f2f7502b
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 18:08:11 2015 -0300
+
+    Segundo metodo generico en builder para contar por algun elemento en particular
+
+commit 89190e886ca3e3b2b5aff910bbd8bb8cf13ab003
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 18:07:43 2015 -0300
+
+    Primero metodo en el builder para contar cuantos elementos de una lista cumplen las condiciónes enviadas
+
+commit de796938a67006d0b59f8493869d109c96059be7
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 18:05:27 2015 -0300
+
+    Modulo de View Sets para el admin (usando el ViewSetBuilder magico :D)
+
+commit dfa399d1b7f84391c6d227776f028d768c8e5992
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 18:03:21 2015 -0300
+
+    Cambio de modulo importado en url para el uso del nuevo modulo de rutas
+
+commit 0d3e95a289b2e3ea5bc148b4bc02f1d0db2f4119
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 18:03:03 2015 -0300
+
+    Modulo para rutas de la API
+
+commit ccc6d1fb296e8145eae5a3ae7f468ba4d7799a70
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 18:02:43 2015 -0300
+
+    Elimino modulo centralizado para dividirlo en modulos mas atomicos
+
+commit a20a83f40f046ff53a84258a150ed2db413d7192
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 18:01:39 2015 -0300
+
+    Cambio la funcion por default para el uso del queryset
+
+commit 6852adaa02bc37d8077248ab925a745e810c70bd
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 18:01:10 2015 -0300
+
+    Cambio de envió de datos. Para un mejor filtro en lugar de mandar la data directamente mando el queryset para poder aprovechar el ORM
+
+commit dd9c409e76bde35b9465abaf5ca6822593053de3
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 27 17:59:46 2015 -0300
+
+    Borrado de importación extra
+
+commit 5ae8de900ce46490e2d231d074c8317ed1e9113a
+Merge: 15be601 ddd19e9
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Fri Apr 24 21:55:42 2015 -0300
+
+    Merge pull request #107 from FedeG/develop
+    
+    Cambio de template de cronograma
+
+commit ddd19e97ccefc9480775e16389063225d46c40e0
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 19:58:45 2015 -0300
+
+    Cambio de template de cronograma, la columna de horas y las charlas dummys no se ven en sm o xs de bootstrap.
+
+commit 15be601faf41b280d5b35ba41979f88216edd09e
+Merge: 4b70c2b 042f700
+Author: Federico Gonzalez <federicogonzalez761@gmail.com>
+Date:   Fri Apr 24 15:17:48 2015 -0300
+
+    Merge pull request #106 from FedeG/develop
+    
+    URL sin case sensitive
+
+commit 042f7000ffa31f80e047895009cf0c4d363c96dd
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 15:15:55 2015 -0300
+
+    URL sin case sensitive
+
+commit 4b70c2bcd1e9ed997129e7fd137aa9dd7498109b
+Merge: 99b8c5a 390b123
+Author: Federico Gonzalez <federicogonzalez761@gmail.com>
+Date:   Fri Apr 24 15:12:54 2015 -0300
+
+    Merge pull request #105 from FedeG/develop
+    
+    Votes for talks por sede
+
+commit 390b12379c908d2f4e700250869efd162cac7fee
+Merge: c07772d 99b8c5a
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 14:50:33 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into develop
+
+commit c07772d948653c3c34dee04dfac7c03d2c5257d3
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 14:50:23 2015 -0300
+
+    Solucion de bug, los votos por charla mostraban de todas las sede y no de la sede actual
+
+commit 99b8c5a04b2ddeae152b3918a212a4c6cbfafd38
+Merge: 14e1573 3dad5e4
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Fri Apr 24 13:39:02 2015 -0300
+
+    Merge pull request #104 from FedeG/develop
+    
+    Detalles del reporte
+
+commit 3dad5e47ae820f2724b033cf3a5aabc0a2cb1ded
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 13:35:16 2015 -0300
+
+    Prueba en views por error 500 en reportes
+
+commit 32acbf2857d6d68bd2b8517f44e01818869b0113
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 13:35:00 2015 -0300
+
+    Correcciones de la template de dashboard
+
+commit 14e1573d1e5d5a9e0f9282be50ee3da9893b630c
+Merge: 4c752f5 451f665
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Fri Apr 24 13:01:38 2015 -0300
+
+    Merge pull request #103 from FedeG/develop
+    
+    Api + Reportes
+
+commit 451f665857fa17aadb7107a5abeb6291dc6ae30f
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 12:14:20 2015 -0300
+
+    Traduccion mergeada
+
+commit b6388deeb8b052dfe475b7ef0d6273f1daf84e38
+Merge: 2c2c976 4c752f5
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 12:11:44 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into develop
+    
+    Conflicts:
+    	conf/locale/es/LC_MESSAGES/django.po
+
+commit 2c2c9767d99649a84060566ba0c99e3b8ea4468f
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 12:08:23 2015 -0300
+
+    Link en colaborador para ver reportes
+
+commit 21eeadcae4c3a3a714364fbc1a0508f2910bb3a8
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 12:08:14 2015 -0300
+
+    Traducciones para reportes y api
+
+commit df11f13c874e50e34d8d3b4b50a1ef2d25a77364
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 11:58:55 2015 -0300
+
+    Vista de la api para reporte general de la sede
+
+commit 683cf71c12e1800d6e19ea162b709a73847728e7
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 11:58:44 2015 -0300
+
+    Uso de builder para crear las apis de varios modelos
+
+commit c813511540022769e7b96a40e17d344937eb47f0
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 11:58:27 2015 -0300
+
+    Rest builder para django-rest
+
+commit 84d944103328f98fa1795f0a759b5d5456a68d55
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 11:58:16 2015 -0300
+
+    Nuevas url's para la api
+
+commit 53622f0a9a59456d5905ce650c72c5c09996f2b7
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 11:57:38 2015 -0300
+
+    Detalles de mas en forms
+
+commit 53fb9b8b3b79bcb34961c3d8516cb54a5c2f8322
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 11:57:15 2015 -0300
+
+    Mejora por error en la vista de celular
+
+commit 4ad5b357bbacf9447182984a8ba8453e6f272037
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 11:56:55 2015 -0300
+
+    URL para reportes
+
+commit 4b62e3e2371a7cc29421448f3932265c0dce6112
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 11:56:46 2015 -0300
+
+    Vista para reporte
+
+commit 152069965e1586782c4d7736e198025264c51325
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 11:56:34 2015 -0300
+
+    Nuevos paquetes para uso de la api rest
+
+commit c4b6151c7aacb098ca6e3294bc5211267a0f19cb
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 11:53:33 2015 -0300
+
+    Nueva aplicacion para uso de api rest en EventoL
+
+commit 7f6190e2104326453f5049851c468c63685be876
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 11:53:00 2015 -0300
+
+    Nuevos paquetes MorrisJs (graficos para reportes) y q (manejo de promesas JS)
+
+commit 2d117cb090e962370a11aea42165d29f51901048
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 24 11:52:00 2015 -0300
+
+    Dashboard de reportes
+
+commit 4c752f50ca9d7e630c3439af52bdba74eb25b55e
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Thu Apr 23 22:12:29 2015 -0300
+
+    Fix error 500 al cargar una instalación ("eventoL/manager/views.py", line 311, in installation
+        if installation is not None:
+    UnboundLocalError: local variable 'installation' referenced before assignment)
+
+commit 27e7351682311e541146e831c29f63e4de802644
+Merge: f8dcfda 485d16d
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Wed Apr 22 14:57:17 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL
+
+commit 485d16d750741b6a80771c4543ff59d2a49b7c2e
+Merge: 78de526 4e84a81
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Wed Apr 22 14:57:08 2015 -0300
+
+    Merge pull request #100 from reyiyo/export
+    
+    letra para cuando hay muchas aulas
+
+commit f8dcfda3dd6396e13ffb8cae459f51bb5b6ade65
+Merge: 78de526 4e84a81
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Wed Apr 22 14:56:29 2015 -0300
+
+    Merge branch 'export'
+
+commit 4e84a81ae30767c13358203dd3420afdfe86d733
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Wed Apr 22 14:54:42 2015 -0300
+
+    letra para cuando hay muchas aulas
+
+commit 78de526e1daa32915d63a16fcc6b481d381e759a
+Merge: 521e9c1 95d4220
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Wed Apr 22 12:10:38 2015 -0300
+
+    Merge pull request #98 from FedeG/develop
+    
+    Solución para el bug de formularios de confirmación de charlas
+
+commit 95d4220faa66b14b444825fb68ca47a8dc552600
+Author: FedeG <federicog@exo.com.ar>
+Date:   Wed Apr 22 10:43:59 2015 -0300
+
+    Bug de formularios de confirmacion de charlas, closes #97
+
+commit 521e9c1bcc2854897647372ef9bf3d1409bb16e5
+Merge: e71d927 4a733cf
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Mon Apr 20 10:30:16 2015 -0300
+
+    Merge pull request #95 from FedeG/develop
+    
+    mergeo con cronograma y detalles de error encontrado
+
+commit 4a733cf2503e3b99ccf87ee0f84a743a942d365e
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 20 10:28:45 2015 -0300
+
+    Cambios de lineas
+
+commit 898ec7d85fd0a7803e3fbddda108d5a8069b3759
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 20 10:18:03 2015 -0300
+
+    Borrado de sort porque la query ya retorna ordenado
+
+commit d8cbeb5c91ca04c820a0d4fd99669699369954ed
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 20 01:23:45 2015 -0300
+
+    Validators, closes #73
+
+commit 7ec4393ff232fad0a9e537971730cdc0d789f382
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 20 01:11:18 2015 -0300
+
+    Cambio para no uso de url en edificio, closes #82
+
+commit f364ce07c0b467ac6291ed05ca432ecb09fce01d
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 20 00:29:47 2015 -0300
+
+    Agrego dato faltante, closes  #85
+
+commit 893214c3d0c7c28c47ed90e07bbecc4ad3eeacbb
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 20 00:18:27 2015 -0300
+
+    Nuevas traducciones para los botones nuevos
+
+commit 585f356389d666fc2e1d8ee163d3e5f059ed4727
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Apr 20 00:18:10 2015 -0300
+
+    Cambios de botones para la lista de charlas
+
+commit 227b129c57305132d0f16e2cb53eeed4f733b375
+Merge: 8bd3d90 ebc66d6
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Apr 19 23:08:14 2015 -0300
+
+    Merge branch 'master' of github.com:FedeG/eventoL into develop
+
+commit ebc66d6841f67e67dbcd7590a070f4c8c53e03b0
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Apr 19 23:07:21 2015 -0300
+
+    Sort rooms
+
+commit 8bd3d90c1f10071f5321905a329a37ef60ebf3fe
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Apr 19 22:59:14 2015 -0300
+
+    Datos perdidos en merge
+
+commit ad342d28928b36af642e8ea1b9bdf997fbf5e004
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Apr 19 20:55:23 2015 -0300
+
+    Fix error de horarios y cambio de link de mas
+
+commit dbc86283c02c6b64e508294eebf71600daaaef2e
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Apr 19 19:08:15 2015 -0300
+
+    Ver el listado de charlas cuando el cronograma ya esta confirmado, closes #93
+
+commit 702cb81403a014d7554b71c0278e7fcb8f94ec95
+Merge: e71d927 16d5411
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Apr 19 13:57:33 2015 -0300
+
+    Merge branch 'cronograma' of github.com:reyiyo/eventoL into develop
+    
+    Conflicts:
+    	manager/models.py
+
+commit e71d9277b40b2c701b1e7364d700fa62560f4293
+Merge: 4098ec4 92eec1c
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sun Apr 19 11:53:39 2015 -0300
+
+    Merge pull request #92 from reyiyo/export
+    
+    Export
+
+commit 92eec1cf6c308ed753e873c23dfb6aae644b21a6
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Apr 19 11:50:48 2015 -0300
+
+    Export for Talk Proposals
+
+commit 15d0326762a8b01e57f28ba57fba44c6db235df1
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Apr 19 11:41:25 2015 -0300
+
+    Export for Installers
+
+commit aa1a783592a8c0a9ab7e01725f8415fd504cc140
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Apr 19 11:25:32 2015 -0300
+
+    Export for Installations
+
+commit de666cf2ea5ff4304be9a4066161ab24f6af44f2
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Apr 19 11:18:05 2015 -0300
+
+    Export for collaborators
+
+commit 1a15628804e9aadff0b8cf50337e7f9cd39bc36a
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Apr 19 10:53:46 2015 -0300
+
+    Attendee export
+
+commit 4098ec4a7dd5d08e4a1fb51ebc765252fcd88205
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Apr 19 10:05:18 2015 -0300
+
+    typo, agrego un espacio
+
+commit 736c35987e4ed7dfe6a4598c5bca24ced9131c12
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Apr 19 10:03:43 2015 -0300
+
+    Fix for charlas de menos de 15 minutos
+
+commit 6a0fa1299b0c0045774d88b269cb1851c1a6dccf
+Merge: 6953e9e 02f32c1
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sun Apr 19 08:36:08 2015 -0300
+
+    Merge pull request #88 from reyiyo/cronograma2
+    
+    Cronograma2
+
+commit 02f32c162abe6dde61d392ffbd2592f26c8c2a6f
+Merge: a0e6034 6953e9e
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Apr 19 08:33:59 2015 -0300
+
+    Merge branch 'master' into cronograma2
+
+commit a0e603419d81f976116a649be82c932fb9ea8c3d
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Apr 19 08:24:18 2015 -0300
+
+    Cronograma!
+
+commit 6953e9ec98353a11f140131fd3dfcbb10298b3d5
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sat Apr 18 10:36:02 2015 -0300
+
+    fix de que las fechas límites sean para ese día inclusive
+
+commit 16d541139b05407f2d247721f3c9a027356023b6
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sat Apr 18 10:34:16 2015 -0300
+
+    fix de un error bobo
+
+commit 7df1d677e61be80a50a08e3e3e2105baf62fdb5e
+Author: FedeG <federicog@exo.com.ar>
+Date:   Thu Apr 16 16:40:21 2015 -0300
+
+    Translate
+
+commit 31208743cd609ff197afb3ff885014873801aa65
+Author: FedeG <federicog@exo.com.ar>
+Date:   Thu Apr 16 16:38:29 2015 -0300
+
+    Traduccion
+
+commit e66f1f9e8b8b5ab6cc09b0b9031501364abd5fa3
+Merge: aab527a 5227f49
+Author: FedeG <federicog@exo.com.ar>
+Date:   Thu Apr 16 16:35:10 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into develop
+
+commit aab527a29a3cc3e0ae0c06b7c6ecac4e06206448
+Author: FedeG <federicog@exo.com.ar>
+Date:   Thu Apr 16 16:34:53 2015 -0300
+
+    Uso de Schedule class para poder manejo del cronograma en la vista de cronograma
+
+commit 095ef426239a19b81a7038d608bf18c60ad38b1a
+Author: FedeG <federicog@exo.com.ar>
+Date:   Thu Apr 16 16:34:09 2015 -0300
+
+    Filtro de columnas de bootstrap
+
+commit 4aad6b1d9c9de90c0c1f14dff67bd20451bdfbae
+Author: FedeG <federicog@exo.com.ar>
+Date:   Thu Apr 16 16:33:50 2015 -0300
+
+    Template para el cronograma
+
+commit efed0cf2c4c70d3cce3c2ff18c6f69d4e5d7b2bb
+Author: FedeG <federicog@exo.com.ar>
+Date:   Thu Apr 16 16:33:11 2015 -0300
+
+    Schedule class para poder manejo del cronograma
+
+commit 25ce77c8a78d75e15fb49a47c9830b3d19070f46
+Author: FedeG <federicog@exo.com.ar>
+Date:   Thu Apr 16 16:32:33 2015 -0300
+
+    Migrate para el color en la clase de tipo de charla
+
+commit 50112e6fd5238996a39e6c51f18596816cd34f6d
+Author: FedeG <federicog@exo.com.ar>
+Date:   Thu Apr 16 16:32:26 2015 -0300
+
+    Color en la clase de tipo de charla
+
+commit 5227f498ccf7a9e85d4acfce9ed5c78ecd4cf262
+Merge: e9efb99 c1a9315
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Thu Apr 16 10:00:45 2015 -0300
+
+    Merge pull request #86 from reyiyo/attendee_registration_by_collaborator
+    
+    Se cambia el redirect de attendee_registration_by_collaborator de /SEDE ...
+
+commit c1a93156fc98ae41d6027be7d7d837ffe6a2ffc3
+Author: Agustin Ignacio Guido Croce Villanustre <agustinc@exo.com.ar>
+Date:   Wed Apr 15 17:33:17 2015 -0300
+
+    Cambio a la url de search
+
+commit c7d41772cc9b309412d0cab0f310782d9d3fca56
+Author: Agustin Ignacio Guido Croce Villanustre <agustinc@exo.com.ar>
+Date:   Wed Apr 15 16:40:16 2015 -0300
+
+    Se cambia el hardcodeo de la redireccion a usar la funcion de la vista.
+
+commit 2d027503cb396e333306c438e9552292820680ad
+Author: Agustin Ignacio Guido Croce Villanustre <agustinc@exo.com.ar>
+Date:   Wed Apr 15 15:57:52 2015 -0300
+
+    Se cambia el redirect de attendee_registration_by_collaborator de /SEDE a /registration/attendee/search
+
+commit 6a57932acca06be46c45affc1bcc65e580cde3f7
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Mon Apr 13 17:34:07 2015 -0300
+
+    Api para charlas en JSON
+
+commit e9efb999d1d6417992b914b1a0e7c3d2c8445bb7
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sat Apr 11 18:54:27 2015 -0300
+
+    updated translations file
+
+commit c8a7b877f1be0bacf0ada9943aefe5afe693d2a5
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sat Apr 11 18:49:16 2015 -0300
+
+    update installations image
+
+commit 24ed5283982d1fb98d36e293cc64379cce0b2916
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sat Apr 11 18:44:02 2015 -0300
+
+    Fecha en la página principal de la sede. closes #76
+
+commit 042c0de43907a6706396b6fdc8bf525594d2a22b
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sat Apr 11 18:07:46 2015 -0300
+
+    Deleted installers group as it was empty. Add collaborators permissions to installers, add is_staff=True for installers, fix some flow where if the form was not valid, the there was no exception and the user and collaborator were not deleted. closes #75
+
+commit 16dbee09accfcad25363a302064932de65d24dd0
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sat Apr 11 11:31:51 2015 -0300
+
+    Downgrade image_cropping version. closes #74
+
+commit fc69c7f127dccafe03ce58e3d8af0bb7d4c25800
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Fri Apr 10 18:37:36 2015 -0300
+
+    Posibilidad de que las sedes usen un sitio externo. closes #71
+
+commit dd1d745efc75adc1127b182fbd2e62e00c3eb0f6
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Wed Apr 8 11:40:46 2015 -0300
+
+    fix #70. Errores en traducción de strings multiline
+
+commit 327e284c42c35e4dfafee489fe202fee8141d699
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Wed Apr 8 08:01:43 2015 -0300
+
+    Imagen por default cuando una propuesta no tiene home_image. closes #69
+
+commit af5eb835fef494b994745f60f38b671abd2cd0cc
+Merge: 50af311 2533ed3
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Tue Apr 7 15:11:50 2015 -0300
+
+    Merge pull request #67 from FedeG/develop
+    
+    Mapa de homepage
+
+commit 2533ed3587fa61c075f87ab02dca580d7b7f0476
+Merge: cb8bbbe 50af311
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Apr 7 14:58:04 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into develop
+
+commit cb8bbbed4ff250af04e5b62b007124f6108b1700
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Apr 7 14:57:57 2015 -0300
+
+    Cambio de configuración del mapa. closes #65
+
+commit 12c14895d7d4cb32f6916fc55ca5fe43eb45a3e3
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Apr 7 14:51:54 2015 -0300
+
+    Cambio de tamaño del mapa para que este dentro del well donde estaba. closes #65
+
+commit 50af311d457c198d7e6efe84c472f7c71f91af79
+Merge: 5a070ff 0a7bdb4
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Tue Apr 7 12:27:33 2015 -0300
+
+    Merge pull request #66 from FedeG/develop
+    
+    Cambio de link
+
+commit 0a7bdb42abd1d1c78d84dc439b1d3ced56718e5c
+Merge: 9156dcb 5a070ff
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Apr 7 12:21:13 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into develop
+
+commit 9156dcb495da070e920a91c5a9082a72597c6405
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Apr 7 12:20:59 2015 -0300
+
+    Link a /, closes #64
+
+commit 5a070ff94c1486de8a050538b746b4df2e5010ee
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Tue Apr 7 11:33:17 2015 -0300
+
+    Limpieza!
+
+commit 3c76843532df942bcd88290e40671a7fa1bb6384
+Merge: 60cb008 ee4d5c4
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Mon Apr 6 05:10:23 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL
+
+commit 60cb00856996d6016a1d8c5ba3dff9f4cc98e93e
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Mon Apr 6 05:09:55 2015 -0300
+
+    sede ordering
+
+commit 18c4e41847c5a99c77ff1c5f625421e185fbf992
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Mon Apr 6 05:05:27 2015 -0300
+
+    más info para sedes que no usen la página
+
+commit ee4d5c44a2ed5e075db61af4bfae4474c0c1502b
+Merge: 1347e10 9f5800d
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sat Apr 4 12:36:53 2015 -0300
+
+    Merge pull request #63 from FedeG/develop
+    
+    Imagen para tamaño acorde a celular
+
+commit 9f5800dc046fce4cf0bdcc737382ad94aecff071
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Apr 3 12:09:53 2015 -0300
+
+    Imagen para tamaño acorde a celular
+
+commit 1347e101969f1c25f4741a893636e1eb6e4030a8
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Fri Apr 3 11:50:41 2015 -0300
+
+    Ahora la url de la sede es case-insensitive
+
+commit 601cdda8537a052d7dc04b57536ed701449afaa8
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Fri Apr 3 10:46:15 2015 -0300
+
+    Cambio para que el email_from salga del settings
+
+commit fb189caa0dd0e429ac936888f48285dd8ccff500
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Thu Apr 2 13:26:24 2015 -0300
+
+    Fixeado todo lo de image_cropping #61 y #62
+
+commit 5f1dca996d848ce5eae144c527e6d70553da4b43
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Thu Apr 2 13:06:47 2015 -0300
+
+    Hago que anda el botoncito de limpiar en image_cropping
+
+commit c1b89cde947ebc2f87f767e12874cdbcf674e467
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Thu Apr 2 00:55:06 2015 -0300
+
+    fix #60
+
+commit 60aae9ea29a27271da90b3018fec534d6bb55f40
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Wed Apr 1 23:45:07 2015 -0300
+
+    correcciones al merge #56
+
+commit 09ee17b97837fcf319edeac189cf30c9e3e9b708
+Merge: 13a3328 4e3d17e
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Wed Apr 1 23:37:52 2015 -0300
+
+    Merge pull request #56 from FedeG/develop
+    
+    BUGS solucionandos
+
+commit 4e3d17e3914f159a5e0ff5c2e903e23fb09e7f34
+Author: FedeG <federicog@exo.com.ar>
+Date:   Wed Apr 1 21:08:29 2015 -0300
+
+    Mas Traducciones (#17)
+
+commit 14e4a7a38f509fbf4635cf407a1a76828de9589d
+Author: FedeG <federicog@exo.com.ar>
+Date:   Wed Apr 1 21:00:02 2015 -0300
+
+    Form con tabulacion normal, closes #57
+
+commit a1137178cdc6b321f71e1bbf2b0112d9940b34ea
+Author: FedeG <federicog@exo.com.ar>
+Date:   Wed Apr 1 20:50:37 2015 -0300
+
+    Messages info para cuando ya estaba registrado el usuario como presente, closes #52
+
+commit 4cbbd78c497c3221a9287cfd9795d1499b092154
+Author: FedeG <federicog@exo.com.ar>
+Date:   Wed Apr 1 20:43:02 2015 -0300
+
+    Confirmación de asistentes redirecciona si misma. closes #51
+
+commit cee44f418376457bfb663f22f4a355e93472b7f4
+Author: FedeG <federicog@exo.com.ar>
+Date:   Wed Apr 1 19:55:42 2015 -0300
+
+    Links de charlas para abrir los detalles, closes #53
+
+commit c8035e1baa7b87ad4b59dc20c0f3d04517e017f9
+Author: FedeG <federicog@exo.com.ar>
+Date:   Wed Apr 1 19:53:59 2015 -0300
+
+    Los votos no se cargan cuando hay errores en el formulario, closes #54
+    Links de charlas para abrir los detalles, closes #53
+    Errores bien y mas detallados, closes #55
+
+commit 3cc40e1d81af3095712f57e2447d88c089f6d0ec
+Author: FedeG <federicog@exo.com.ar>
+Date:   Wed Apr 1 19:51:13 2015 -0300
+
+    No cancelar votos una vez que estan confirmadas las charlas, closes #54
+
+commit c4a2fae1502bb53e2579cb05f5acd659402dda49
+Author: FedeG <federicog@exo.com.ar>
+Date:   Wed Apr 1 19:50:44 2015 -0300
+
+    No cancelar votos una vez que estan confirmadas las charlas, closes #54
+
+commit 8eea9a0f72d0dd039ea8bb66d8f6b35cf8af12f7
+Merge: 3ee4f96 13a3328
+Author: FedeG <federicog@exo.com.ar>
+Date:   Wed Apr 1 15:07:06 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into develop
+
+commit 13a3328cbd2e05f190f09932ebfd4d81f5804c56
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Wed Apr 1 09:48:56 2015 -0300
+
+    borro campo footer que ya no existe
+
+commit 48519baf65d77a09a74f90d38d828ef98e70122d
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Wed Apr 1 09:46:17 2015 -0300
+
+    fix bug en la url de contacto
+
+commit 60e83669bb53fa5473fd35b6a20abc39d7bb8db4
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Wed Apr 1 09:44:54 2015 -0300
+
+    Traducciones!
+
+commit 6326c67e406241dc9f892f287bcc98f3f49a405e
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Wed Apr 1 08:25:58 2015 -0300
+
+    Cambio para cuando todavía no hay charlas propuestas
+
+commit 3a16ceaab16939fb2a8f331ab7ecd5bd5003b169
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Wed Apr 1 07:56:33 2015 -0300
+
+    optimized images
+
+commit 5505ea6329c6298750be92ed69d76c5882f42217
+Merge: 4772867 3d69104
+Author: Federico Gonzalez <federicogonzalez761@gmail.com>
+Date:   Tue Mar 31 23:46:04 2015 -0300
+
+    Merge pull request #49 from reyiyo/index_retoques
+    
+    Index retoques
+
+commit 3ee4f96114800b2986b13d54eea4bd2b76672459
+Merge: efb1909 5505ea6
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 23:45:55 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into develop
+
+commit efb190970a07e999b388942e5e6480d5b8b14096
+Merge: 7d5bfc3 4772867
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 23:41:47 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into develop
+
+commit 7d5bfc39a7ed65daa5ac3804ecd293862f435280
+Merge: 631bf61 3d69104
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 23:41:37 2015 -0300
+
+    Merge branch 'index_retoques' of github.com:reyiyo/eventoL into develop
+
+commit 4772867ca0eb1cd3cc588e5a6b27d472fa5e244a
+Merge: 66ecc08 631bf61
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Tue Mar 31 22:51:35 2015 -0300
+
+    Merge pull request #48 from FedeG/develop
+    
+    Traducciones casi terminadas
+
+commit 3d691041a1c193d0174473f78b9eed26a7c0dfe2
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Tue Mar 31 22:34:57 2015 -0300
+
+    No me hago responsable por este commit (?)
+
+commit 67b1d8ffa6a75dfaa71e47e0b60983c46715d244
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Tue Mar 31 21:24:45 2015 -0300
+
+    Fix de las flechitas del timepicker
+
+commit 25bb25c718bc9196cfa4936273e7687c72e610da
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Tue Mar 31 20:30:58 2015 -0300
+
+    dep de bower que me olvidé
+
+commit fcc62968ef88f8e43560280056f62b105300367c
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Tue Mar 31 20:21:26 2015 -0300
+
+    fix de un bug con submit installation
+
+commit 631bf610d5289b2ea93e74b5c13e378a824e437d
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 20:20:26 2015 -0300
+
+    Traducciones casi terminadas
+
+commit e7de376483668fddd3b22b68835e66f708126344
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Tue Mar 31 20:14:47 2015 -0300
+
+    merge de un conflicto de migrations
+
+commit 7dde2d94444b59f101551f540bd9e0e0b24ce986
+Merge: 78b0a34 66ecc08
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Tue Mar 31 20:10:39 2015 -0300
+
+    Merge branch 'master' into index_retoques
+
+commit 66ecc087b01d35b7ace4b6c58aee2a39635832ea
+Merge: 3193b88 882752d
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Tue Mar 31 20:09:28 2015 -0300
+
+    Merge pull request #47 from FedeG/develop
+    
+    Bug de image-cropping + autocomplete filtrado
+
+commit 882752d602c2ac5c8337eeb157824955a05cd404
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 19:54:08 2015 -0300
+
+    Cambio de Comfirm a Confirm en el nombre del campo
+
+commit 205337c7039b5a74f384e7d96ca338d5b22494bc
+Merge: 1028b98 3193b88
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 19:35:44 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into develop
+
+commit 1028b98201ce8dc6db4ba39264cb0d2aa047822e
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 19:34:40 2015 -0300
+
+    Cambios por el bug de image_cropping
+
+commit 2222044ba61a43df4c0c2d939d4633ef8f05be3d
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 19:31:12 2015 -0300
+
+    Fix instance error (el problema esta en que justo los autocomplete usan otra metodologia)
+
+commit 78b0a34a4f10bdeb8a5626f859eeec4d1b52ed55
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Tue Mar 31 19:30:48 2015 -0300
+
+    retoques a la página principal de las sedes
+
+commit 3193b8894277efe5b83db550f2d8b66eba1ccb8a
+Merge: a36afc0 361db85
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Tue Mar 31 18:57:10 2015 -0300
+
+    Merge pull request #46 from FedeG/develop
+    
+    Comments + Banner + Schedule confirm + Alerts
+
+commit 361db8538abd04718ad77e6cf8fc7cadac1abad8
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 18:48:59 2015 -0300
+
+    Agrego link en collaborator para la lista de charlas
+
+commit 1bc14f07012cfb0934c70897cb6d15a220b2b459
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 18:44:49 2015 -0300
+
+    Se cambia la vista para redureccion a talks si el schedule no esta confirmado y se agrega el message info.
+
+commit f75a2e798d1867c85f7d8aa96db9afd4fde4ae3b
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 18:44:18 2015 -0300
+
+    Se cambian las url's para schedule y talks
+
+commit 7de068b6f0631154c387d5246843e2964232ba66
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 18:43:59 2015 -0300
+
+    Se agrega el boton "Confirm Schedule" a la vista de charlas cuando no esta confirmado el cronograma
+
+commit 4e1068eed65426e521acec0d7b4ab7b96fad714b
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 18:43:18 2015 -0300
+
+    Cambio de modelo, en la sede se agrega schedule_confirm para saber cuando mostrar el cronograma
+
+commit bc294f52ad17a8b7bfc21c01c74feb75a09fbfa3
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 18:09:57 2015 -0300
+
+    Alerta de que el comentario es publico
+
+commit 93fc4f549c7e7881a6628691c15cf2b69da8ba20
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 18:04:02 2015 -0300
+
+    Mejora de Banner 2 (mas parecido al nuevo de @reyiyo)
+
+commit 9feca38330861a36c4e9ffd654e2662b17bfcaaf
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 17:57:32 2015 -0300
+
+    Mejora de banner
+
+commit 1c43ef6110e4a8e5df751960237394f318bd9b7a
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 17:57:22 2015 -0300
+
+    Cambio en modelo Comments, borrado de comment title y template con panels de title username o full_name (nombre y apellido)
+
+commit a36afc0c120cfd987247acadb1de7840dc37c8e5
+Merge: 44c7f80 f43f69a
+Author: Federico Gonzalez <federicogonzalez761@gmail.com>
+Date:   Tue Mar 31 17:20:43 2015 -0300
+
+    Merge pull request #45 from reyiyo/homepage
+    
+    Homepage
+
+commit f43f69a15089454baf83988ed66cfad8316cf766
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Tue Mar 31 17:06:51 2015 -0300
+
+    saco la diferenciación entre confirmadas y propuestas
+
+commit 614fa034f49f5ecff874ab1acb7df16b5393cb7e
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Tue Mar 31 16:33:54 2015 -0300
+
+    Cambios para cuando no hay ninguna charla propuesta
+
+commit 348249314f258653291d634e5c28264ff6c633e3
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Tue Mar 31 15:25:14 2015 -0300
+
+    Homepage bonito bonito
+
+commit 44c7f806288da3a9bcadc90d3047e6ea5f624aa9
+Merge: 74c1a6b de17acb
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Tue Mar 31 12:05:08 2015 -0300
+
+    Merge pull request #44 from FedeG/develop
+    
+    Fix error superuser/collaborator + Permisos para /admin a todos los collaborators
+
+commit de17acb099926df3b2c35b202dad130b59523bca
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 10:47:01 2015 -0300
+
+    Permisos para /admin a todos los collaborators
+
+commit a9f375605278243b9f3f7951fd73dbc7bd134d30
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 10:00:13 2015 -0300
+
+    Fix error superuser/collaborator
+
+commit 74c1a6bf942eba072421b2946bf80a77c409b202
+Merge: 702f41a 670de6e
+Author: Federico Gonzalez <federicogonzalez761@gmail.com>
+Date:   Tue Mar 31 09:54:14 2015 -0300
+
+    Merge pull request #43 from reyiyo/restore_password2
+    
+    Restore password2
+
+commit 702f41a867db329cd337d365423cbe3cbce1a99c
+Merge: ca42275 ff8bbb6
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Tue Mar 31 09:25:13 2015 -0300
+
+    Merge pull request #42 from FedeG/develop
+    
+    is_sede_staff + responsive
+
+commit 670de6edbad53e562d3fe20385a8f9dd50079093
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Tue Mar 31 09:23:51 2015 -0300
+
+    Manejo de error cuando el link de reestablecimiento de contraseña no es válido
+
+commit 9b31657cb7941d89080bfba3f9412df5702da513
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Tue Mar 31 08:31:43 2015 -0300
+
+    Vistas para cambio de contraseña
+
+commit ff8bbb692a9b163914994acbf72de26fafb00ea1
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 01:41:08 2015 -0300
+
+    Detalles para mejor responsive
+
+commit bc78e5326197e99b57b73803bccd3cab34964eb4
+Author: FedeG <federicog@exo.com.ar>
+Date:   Tue Mar 31 00:29:57 2015 -0300
+
+    Cambios para is_staff con verificación de sede, closes #41
+
+commit 2fe73885d79e226ffc5b8a5d31db9b73ded98ccf
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Mon Mar 30 21:43:43 2015 -0300
+
+    Agrego función sede_django_view para ejecutar funciones de django agregando info de sede
+
+commit b4f2b0d9cb143c0f7aa8d78c6051f2d0b3ff4c73
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Mon Mar 30 21:32:47 2015 -0300
+
+    Saco lo de compilar less y agregué instrucciones para compilarlo manualmente en la guía de instalación
+
+commit ca42275f8f6fea0240cdefa764c8d98b11c1b51a
+Merge: 093b83e 3f2004c
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Mon Mar 30 20:37:31 2015 -0300
+
+    Merge pull request #40 from FedeG/forms
+    
+    Forms con entorno limitado
+
+commit 093b83e9b9e3c0577cd85bb9990bc32f9773e6fb
+Merge: b5340f1 7e74429
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Mon Mar 30 19:52:24 2015 -0300
+
+    Merge pull request #39 from FedeG/develop
+    
+    Query Set + "ver en el sitio" + Attende Search con autocomplete
+
+commit 3f2004c4a7b67cb49cae4efc5c66785d5d061905
+Author: Agustin Ignacio Guido Croce Villanustre <agustinc@exo.com.ar>
+Date:   Mon Mar 30 17:29:31 2015 -0300
+
+    Se envia la sede_url por parametro para realizar el filtro de queryset
+
+commit fe1d5ca8929cd1411af088875635064d17279fd4
+Author: Agustin Ignacio Guido Croce Villanustre <agustinc@exo.com.ar>
+Date:   Mon Mar 30 17:08:38 2015 -0300
+
+    Cambios en AttendeeSearchForm para que filtre por sede
+
+commit 78dc5ca7cf036fe7c0f0163a634054fbac94f4dd
+Author: Agustin Ignacio Guido Croce Villanustre <agustinc@exo.com.ar>
+Date:   Mon Mar 30 16:53:03 2015 -0300
+
+    Se agregan cambios al instalation form
+
+commit 7e74429cfa9f5f187151ae05d9248f11fb40ef74
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 30 14:13:27 2015 -0300
+
+    Detalle de jQuery
+
+commit 339ca6d5c77cee4e27299815f465ab63be140178
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 30 11:47:35 2015 -0300
+
+    Arreglo de autocomplete para attende search
+
+commit 0e0f73c119ecd0fc2db055596978f23643f2ecce
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 30 10:59:20 2015 -0300
+
+    Formulario de Talk con los room y collaborator filtrados
+
+commit 10ba167b6909f9f71f630496cbd9389e87f097d2
+Merge: 971970a b5340f1
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 30 10:49:12 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into develop
+
+commit 971970ae498fb89bfa170f3d2bf2b4def974c25e
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 30 10:48:55 2015 -0300
+
+    Links para "ver en el sitio" en propuestas, charlas y sedes
+
+commit 8c1244be3baab149e9482fe04a174a526ae920da
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 30 10:48:30 2015 -0300
+
+    Query Set para administrar todo desde /admin
+
+commit b5340f156404dd453652a811226d99b345ce15ef
+Merge: 3c3da9a 6ce5bf4
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Mon Mar 30 09:00:56 2015 -0300
+
+    Merge pull request #38 from FedeG/develop
+    
+    Alerts + Correcciones (#35) + Limpieza de urls y sus templates + Detalles
+
+commit 6ce5bf4608552779c65accadb00cc7d8f92adfe4
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 30 06:02:45 2015 -0300
+
+    Detalles del merge con master y un TODO
+
+commit b936dafeb6ba7e766cd3ea92daee446d031544d2
+Merge: 6c79df5 3c3da9a
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 30 05:19:21 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into develop
+    
+    Conflicts:
+    	manager/views.py
+
+commit 6c79df533067b4ebfe79d685ba859261cb5439ef
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 30 05:12:10 2015 -0300
+
+    Messages de error, messages de success para los que faltaban y detalles de PR #35
+
+commit 9a96a5ebf34f2386e89dfe1b55415404c4bac60c
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 30 05:10:10 2015 -0300
+
+    URL's y template de mas por el uso de alerts de success y error
+
+commit 3c3da9aef25ab04257938a5ef01ae6c5280650ec
+Merge: c414abe dbf3d30
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Mar 29 21:27:59 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL
+
+commit c414abe7d2dd7dc4c125ceb3c6576d3084d7e9e6
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Mar 29 21:27:08 2015 -0300
+
+    Update grappelli version
+
+commit dbf3d30ce7aab8d95a14ffb4606993f5f0df5dc9
+Merge: 52fb7b1 6fea198
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sun Mar 29 21:24:15 2015 -0300
+
+    Merge pull request #37 from reyiyo/alert
+    
+    Limpieza de las tempaltes de success para usar los alerts y mejoras en l...
+
+commit 6fea198938ba41af5614c53c8ade9508f5b8900b
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Mar 29 21:22:43 2015 -0300
+
+    Limpieza de las tempaltes de success para usar los alerts y mejoras en la registración
+
+commit 1ff96887a1d1bd87de59021846a809b34ae7ba90
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Mar 29 19:38:30 2015 -0300
+
+    Mejora de import de models
+
+commit fac7eced3c7146373f75dcfc94e43edb1618a29b
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Mar 29 19:34:11 2015 -0300
+
+    Detalles de Merge Requests (#35)
+
+commit 7a89b1114a979cc4161b5c5c8ef1dae640102f17
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Mar 29 19:07:08 2015 -0300
+
+    Cambio de "Event Information" y detalles en views.py
+
+commit 52fb7b1bdee212db667fe2412cc49727f74cc7ab
+Merge: fbf2ee9 d8c339e
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sun Mar 29 11:38:03 2015 -0300
+
+    Merge pull request #36 from reyiyo/alert
+    
+    Alert
+
+commit d8c339e120954f310f99baec3d1db1690a004651
+Merge: f11a2e3 fbf2ee9
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Mar 29 11:36:32 2015 -0300
+
+    Merge branch 'master' into alert
+    
+    Conflicts:
+    	manager/views.py
+
+commit fbf2ee9ae3d094f4946b0692ea46ade230fcd054
+Merge: a524d1f cfd80f7
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sun Mar 29 11:20:00 2015 -0300
+
+    Merge pull request #35 from FedeG/develop
+    
+    Votos + Comentarios + Talk + Proposal to talk + fecha limite + extras
+
+commit cfd80f7a06f3c64952371fd4d9c4f2e035725969
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sat Mar 28 23:17:54 2015 -0300
+
+    Uso de contactos para el base-main
+
+commit c5dcc9cfa7c93e39a21c510229a85fd981f7eae9
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sat Mar 28 23:17:25 2015 -0300
+
+    Mas traducciones
+
+commit f11a2e30dbce5db133012bef5cd62aa9c8ee2788
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sat Mar 28 22:59:38 2015 -0300
+
+    ugettext para traduccion de messages.success
+
+commit 2fda3a95817bf36e6d9801ee9bd3c8d888df6f77
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sat Mar 28 22:27:42 2015 -0300
+
+    Traducciones y detalles en las templates para la traduccion
+
+commit 5835cd23eeab2a3bd970e707b61b8e12f36ade85
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sat Mar 28 21:34:37 2015 -0300
+
+    Limite para propuestas de charlas y su migrate, closes #12
+
+commit a3e2a4e767b54d7c64b12d4c869828e65dcb8726
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sat Mar 28 21:14:16 2015 -0300
+
+    Nivel en las charlas
+
+commit 5ddc5c6d5b833267ff25f093e7273d2de59c383c
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sat Mar 28 21:01:32 2015 -0300
+
+    Detalles de reunion del Viernes 27/03/2015 y Detalles encontrados
+
+commit 57ce9604876245f759ee3e3afaa828c3d3806f01
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Mar 27 02:01:24 2015 -0300
+
+    Paquete nuevo para votos
+
+commit ebd9143f436fb5ee0c458962b12bb74ff55aa308
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Mar 27 02:01:07 2015 -0300
+
+    Nuevas vistas para votos, comentarios, charlas, ...
+
+commit 25da5fdd9e65dcd74c3f124b572c2e18403360e4
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Mar 27 02:00:49 2015 -0300
+
+    Nuevas urls para votos, comentarios, charlas, ...
+
+commit 3b5462a259291bbeeea2583d83c8a15d26b4c65b
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Mar 27 02:00:19 2015 -0300
+
+    Filtros nuevos para ver installer y datepicker
+
+commit 9ef5f7da9b496483aad688aea89b66c9f7d28b42
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Mar 27 01:59:53 2015 -0300
+
+    Mejoras de Templates, Talks, TalksProposal, Comments, detalles de permisos y vista de charlas con los comentarios y votos
+
+commit 432e508c260385224801dcadabbc585d224a05e5
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Mar 27 01:58:22 2015 -0300
+
+    Models para Voto y Commentarios
+
+commit fc32e8acd8e3482385d3c1f92aa7c6db3b8a7422
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Mar 27 01:57:27 2015 -0300
+
+    Migraciones para todos los modelos nuevos
+
+commit dbbe4c828321625182442fbb01d28cbba87a0385
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Mar 27 01:57:11 2015 -0300
+
+    Agrego modelos de comentarios
+
+commit 954c5a68c01561ef5ec24be417c445dfd8301587
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Mar 27 01:56:59 2015 -0300
+
+    Agrego app de votos
+
+commit 3199d621ebabf21e1467b52c51f674a61333235a
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Mar 27 01:56:45 2015 -0300
+
+    Componentes de bower para datepicker y timepicker
+
+commit 42640d1dcc868eeb60bf2ad62f1e2d52ad7e8327
+Author: FedeG <federicog@exo.com.ar>
+Date:   Fri Mar 27 01:56:26 2015 -0300
+
+    Formulario de TalkProposal to Talk y Commentarios
+
+commit ab0eff1c881ddd1e6e09798cd4315eada165462a
+Author: Agustin Ignacio Guido Croce Villanustre <agustinc@exo.com.ar>
+Date:   Wed Mar 25 16:20:57 2015 -0300
+
+    Se agregan los mensajes para cada view
+
+commit b0473bbeeb6e99078daf0b0dd18ee905346f352f
+Author: Agustin Ignacio Guido Croce Villanustre <agustinc@exo.com.ar>
+Date:   Wed Mar 25 16:05:52 2015 -0300
+
+    Se agrega display de mensajes en las templates
+
+commit 26f83bdc56d4e650b730e5b5d38595a33b212696
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sat Mar 21 23:40:21 2015 -0300
+
+    Django 1.7.7
+
+commit a524d1f67497a3a8dbacac3c3ce531d8939cddba
+Merge: 840323d 042d024
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Thu Mar 19 23:36:31 2015 -0300
+
+    Merge pull request #32 from FedeG/develop
+    
+    Pantalla principal + Cambios para Talks + Detalles
+
+commit 042d024cfaac6afb962dfa4974d6c7a2b80bd965
+Author: FedeG <federicog@exo.com.ar>
+Date:   Thu Mar 19 20:22:51 2015 -0300
+
+    Cambios de Talk yTalkProposal + detalles encontrados
+    
+    
+    
+    Agregar una propuesta de charla al cronograma final #3
+
+commit f393e3de6302eae547874a46297ce7be6470d220
+Author: FedeG <federicog@exo.com.ar>
+Date:   Thu Mar 19 17:58:20 2015 -0300
+
+    Cambios por merge con homepage y nueva página principal, closes #28
+    
+    
+    
+    Diseño de la página principal #28
+
+commit a4fd459ca17750efcee83978df1f2348d1643b9f
+Merge: 2c79488 0d81ef8
+Author: FedeG <federicog@exo.com.ar>
+Date:   Thu Mar 19 15:54:11 2015 -0300
+
+    Merge branch 'homepage' of github.com:reyiyo/eventoL into homepage
+    
+    Conflicts:
+    	manager/forms.py
+    	manager/views.py
+
+commit 840323dc7efd825cd2dddc0808fc06a63a265375
+Merge: 7d6b8c8 2c79488
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Thu Mar 19 15:50:32 2015 -0300
+
+    Merge pull request #30 from FedeG/develop
+    
+    Collaborator + Urls + Detalles
+
+commit 2c794881d03e59d2880b19e8435fa2cc2337c1ff
+Author: FedeG <federicog@exo.com.ar>
+Date:   Thu Mar 19 15:41:11 2015 -0300
+
+    Collaborator + Urls + Detalles #30
+
+commit 0d81ef8a2cd5f0c5d69ac7bf81ff158dcd4ec29f
+Author: Agustin Ignacio Guido Croce Villanustre <agustinc@exo.com.ar>
+Date:   Thu Mar 19 15:38:33 2015 -0300
+
+    Se homepage con las sedes en columna y el "mapa" de la ubicacion
+
+commit c9b35f4a2a7615b1de37bca7343ffc756f431dfd
+Author: FedeG <federicog@exo.com.ar>
+Date:   Thu Mar 19 04:19:55 2015 -0300
+
+    Detalles para la tarea #17 y fix de errores encontrados
+
+commit f5b476638b9bffe462b90e958096c868b47d229f
+Author: FedeG <federicog@exo.com.ar>
+Date:   Thu Mar 19 03:32:22 2015 -0300
+
+     Cambio de url de login y redireccion a /sede/sede_url, closes #31
+
+commit 14b8600541b5a710b87598c00beb9bd4e1ef2e86
+Author: Agustin Ignacio Guido Croce Villanustre <agustinc@exo.com.ar>
+Date:   Wed Mar 18 17:11:51 2015 -0300
+
+    Se agrega posibilidad de enviar mails a cada sede. closes #9
+
+commit 4ef171f73efa14cd28d4d8496fc9a913c60e63ff
+Merge: dcdaa88 7d6b8c8
+Author: FedeG <federicog@exo.com.ar>
+Date:   Wed Mar 18 17:00:13 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into develop
+    
+    Conflicts:
+    	manager/migrations/0001_initial.py
+    	manager/migrations/0002_talkproposal_speakers_names.py
+
+commit dcdaa881c69f2bde0390f7b7b41650e93122d0e6
+Author: FedeG <federicog@exo.com.ar>
+Date:   Wed Mar 18 16:58:51 2015 -0300
+
+    Cambios de Organizer a Collaborator y migrates
+
+commit 380350040b3bad753a0508149c6dc3ef9c379abb
+Author: FedeG <federicog@exo.com.ar>
+Date:   Wed Mar 18 16:55:37 2015 -0300
+
+    Cambios de Organizer a Collaborator y migrates
+    
+    
+    
+    Hacer que un colaborador se pueda registrar como instalador #18
+
+commit 2a80c2629613051c7e470d745997ddbbc0e17935
+Merge: 68adc63 7d6b8c8
+Author: Agustin Ignacio Guido Croce Villanustre <agustinc@exo.com.ar>
+Date:   Wed Mar 18 12:16:56 2015 -0300
+
+    Merge branch 'master' into homepage
+
+commit 7d6b8c856b0f8d6fa04f1ef2c57673658df69885
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Wed Mar 18 12:16:52 2015 -0300
+
+    Agrego modelo faltante para importa initial_data
+
+commit d5476cd72a8993d552e18c4f84b851db57b436d4
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Mon Mar 16 18:13:08 2015 -0300
+
+    Se muestran los speakers en la descripción de las charlas. closes #13
+
+commit fa9b5a1b32d92013fc8a241efcd70e874c50548e
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Mon Mar 16 17:56:45 2015 -0300
+
+    Override jquery de image_cropping. closes #20
+
+commit 68adc6345a93745cb04b85f9b53bff7bd50f2ad9
+Author: Agustin Ignacio Guido Croce Villanustre <agustinc@exo.com.ar>
+Date:   Mon Mar 16 17:34:39 2015 -0300
+
+    Se modifican los src y href para que utilicen bower
+
+commit 11d88caf91bbb3d018b42986cf10d8a3d2db81e2
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Mon Mar 16 16:58:20 2015 -0300
+
+    Ahora el registro de attendees se fija si el evento está terminado o no. closes #14
+
+commit d78ff4f2898fd593f8cae752d7c601637738a233
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Mon Mar 16 16:40:22 2015 -0300
+
+    Se fija que para submitear una instalación, el usuario logueado sea un instalador. Caso contrario, no le muestra el menú para hacerlo
+
+commit 11d15b2d723c72cb143e0f6b2be1334767d9ad60
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Mon Mar 16 16:13:11 2015 -0300
+
+    Reseteo de las migraciones e initial_data de ejemplo
+
+commit 1ffa4ab86c333da142d3acaaf5cc8583aaadd2ec
+Merge: 2177dca d14ee90
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Mon Mar 16 11:42:40 2015 -0300
+
+    Merge pull request #27 from FedeG/develop
+    
+    Footer e información de evento por sede + interfaz de WYSIWYG en el admin + colaborador -> instalador
+
+commit d14ee909c53e279796a9cfbca0d33e2bdd2cb4c0
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 16 11:03:56 2015 -0300
+
+    Listo lo del formulario sin modelo diferente para pasar de colaborador a instalador
+
+commit a8b483a7f0a33ef638239cb4ce82be5bc97ab5f3
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 16 11:02:57 2015 -0300
+
+    Listo lo del footer y event_information no requerido
+
+commit 00ea67e287205e1a31dbf6d188fee82a135bc98a
+Merge: 8c3b2fc 2177dca
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 16 11:01:17 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into develop
+
+commit 2177dca938b03c1e2b70472259c69f71f15fb150
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Mon Mar 16 10:52:16 2015 -0300
+
+    Fix de un error con los checkbox que no estaban bindeados al form
+
+commit 8c3b2fcb7612c46fc4343ec4b4ccc74801f515f5
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 16 01:07:41 2015 -0300
+
+    Vistas para las nuevas funcionalidades
+    
+    
+    
+     Hacer que un colaborador se pueda registrar como instalador #18
+
+commit f0bec2ddc14b02a16bbbc6ca31b7c1ee92648bb8
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 16 01:07:29 2015 -0300
+
+    Cambios en las urls para las nuevas templates y para el uso generico de vistas con footer y data de la sede
+    
+    
+    
+     Hacer que un colaborador se pueda registrar como instalador #18
+
+commit 79100d1cf71d974188cd977222b87db31c7db745
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 16 01:07:03 2015 -0300
+
+    Cambios en las templates
+    
+    
+    
+     Hacer que un colaborador se pueda registrar como instalador #18
+
+commit 359cf976288cbfdb33f8eb46efd2ba3ac34c6a52
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 16 01:06:45 2015 -0300
+
+    Cambios en el modelo y migrates
+    
+    
+    
+     Hacer que un colaborador se pueda registrar como instalador #18
+
+commit fae0dfc1463f33870d50873caa74f622a040703b
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 16 01:06:30 2015 -0300
+
+    Forms para pasar de organizador a instalador
+    
+    
+    
+     Hacer que un colaborador se pueda registrar como instalador #18
+
+commit 87fbb1ab8c47d7da26e9190d5e42e740c358a0c1
+Merge: dff3bfd faf7448
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 16 01:05:18 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into material-develop
+
+commit faf7448cd1a9f1b11c1494b9e25231b63383a866
+Merge: 64887f3 658f6cf
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Mon Mar 16 00:13:50 2015 -0300
+
+    Merge pull request #26 from reyiyo/material-design
+    
+    Material design!
+
+commit dff3bfdd09a88370208b334ee0329244b0da42ec
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Mar 15 23:15:01 2015 -0300
+
+    Fix merge error
+
+commit 7b5c727277327d33d39ce45c6de7c6301c315f26
+Merge: bedc920 9005056
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Mar 15 22:58:59 2015 -0300
+
+    Merge branch 'develop' of github.com:FedeG/eventoL into develop
+
+commit 90050567f221ca774690e1d16df16c297f7ff65f
+Author: Federico Gonzalez <federicogonzalez761@gmail.com>
+Date:   Sun Mar 15 22:59:21 2015 -0300
+
+    Fix error in url de FAQ
+
+commit bedc9205fd416006e374f43a2be2d18fcd2254e7
+Merge: 7bb82aa 658f6cf
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Mar 15 22:53:22 2015 -0300
+
+    Merge branch 'material-design' of github.com:reyiyo/eventoL into develop
+    
+    Conflicts:
+    	eventoL/settings.py
+    	manager/templates/base-main.html
+    	requirements.txt
+
+commit 7bb82aa4b02dd6afeb0ba4c83ffe3743a353da91
+Merge: f5ab1d9 64887f3
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Mar 15 22:46:26 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into develop
+
+commit f5ab1d9cd085be46369ea8148eb4d6b289d2da2d
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Mar 15 22:46:05 2015 -0300
+
+    Cambio en vistas para obtener los datos de sede para las paginas (footer, url_sede y event_information)
+    
+    
+    
+    Footer por sede (#6) y  WYSIWYG para información del evento (#5)
+
+commit f7f413515b967d9bba9ca489d6ffabd252ee01fa
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Mar 15 22:45:34 2015 -0300
+
+    Cambio para uso de las urls nuevas
+    
+    
+    
+    Footer por sede (#6) y  WYSIWYG para información del evento (#5)
+
+commit 1062dac95c909bb08b6bc8360df2a9dbd0961d0b
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Mar 15 22:45:17 2015 -0300
+
+    Cambio de settings para el uso de ckeditor y sus modelos
+    
+    
+    
+    Footer por sede (#6) y  WYSIWYG para información del evento (#5)
+
+commit 6fb1dd26fec84d65b0b0ecf3644442efede03808
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Mar 15 22:44:29 2015 -0300
+
+    Cambio de urls para el uso de footers e informacion de evento por sede
+    
+    
+    
+    Footer por sede (#6) y  WYSIWYG para información del evento (#5)
+
+commit 658f6cfc253973d45c1240becea2963f3d034116
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Mar 15 21:28:28 2015 -0300
+
+    change in textarea widget for AttendeeByCollaborator form
+
+commit ab1066ad0b02e734c86315da070df8629d4b3ebb
+Merge: 74abed4 64887f3
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Mar 15 21:22:53 2015 -0300
+
+    Merge branch 'master' into material-design
+    
+    Conflicts:
+    	eventoL/settings.py
+    	manager/static/manager/attendeeByCollaboratorAutocomplete.js
+
+commit 64887f32e062205aaa290437b4597f8d32d82614
+Merge: d7ca3cc fafeedf
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sun Mar 15 21:18:08 2015 -0300
+
+    Merge pull request #25 from FedeG/develop
+    
+    Issues: #22 + #19
+
+commit 74abed4e1e92a572702e1d150f25f968c07c4bd0
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Mar 15 21:15:21 2015 -0300
+
+    Improved multiple-forms
+
+commit 5ed88b922f6bfb623dc4d52a82a820d925e03784
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Mar 15 20:38:43 2015 -0300
+
+    Improved FileInput widget
+
+commit 383f2243d78582664a011341870544bc240f9602
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Mar 15 20:10:49 2015 -0300
+
+    Improved forms!(sigle-form)
+
+commit fafeedfc88ca081ac8e9a283d590d56ad6691f1a
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Mar 15 20:03:16 2015 -0300
+
+    Change admin title (Grappelli -> Flisol 2015)
+
+commit 168603c4954daa04e14284c536ab23b808a9ab88
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Mar 15 20:02:41 2015 -0300
+
+    Migrations :D
+
+commit a5ece31d5b45f2f2c3b4d64df789a0bac58c800e
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Mar 15 18:27:17 2015 -0300
+
+     Agregar los post-processors de easy_thumbnails (#19)
+
+commit 722c8bbedc5c4256efd31dceea4334199e9d3267
+Author: FedeG <federicog@exo.com.ar>
+Date:   Sun Mar 15 18:09:56 2015 -0300
+
+    Refactor: Cambiar "Attendant" por "Attendee" (#22)
+
+commit 89cb97c36a84e7aecb55768b33c541b294557795
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Mar 15 17:32:42 2015 -0300
+
+    Initial steps to material design - Still a WIP
+
+commit d7ca3ccd541380e69915579dcdb5e5b8cfd2f822
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sun Mar 15 09:56:01 2015 -0300
+
+    Link to installations instructions wiki page
+
+commit 64092c9484d864776ce085497c71ce432f4264b3
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Mar 15 09:29:47 2015 -0300
+
+    Índice en la db para la url de la sede. closes #24
+
+commit 8cf180e97536f8b8a3cb9edbb2afbffd45c7b47c
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Mar 15 09:26:12 2015 -0300
+
+    Sección "Follow Us!" específica para cada sede. closes #10
+
+commit e8a9cdf185cc4b85574db5fda6ff868d9a8e4556
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Mar 15 07:09:50 2015 -0300
+
+    Cambio de url /app a /sede y /app/api a /api. closes #21
+
+commit 34c08c9193e81831faf935ac1df79906e4b4cf85
+Merge: 255ad0f c39284a
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sun Mar 15 06:39:26 2015 -0300
+
+    Merge pull request #23 from reyiyo/sedes
+    
+    Multi-sede
+
+commit c39284a7d8bf9cbb2d5a422d2fac2d753655c137
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sat Mar 14 10:34:24 2015 -0300
+
+    Nueva página home en la url principal y la página index anterior, pasa a ser el index de las sedes
+
+commit 8fd4602bf71c7040f363fa3d582666d50eed71c9
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sat Mar 14 09:38:53 2015 -0300
+
+    Ahora a todas las vistas de sede se accede por parámetro. Ya falta poquito!
+
+commit 0e1585482b8c601ed71435770c6dc30a4833ed96
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Fri Mar 13 09:35:05 2015 -0300
+
+    Fix merge error
+
+commit c922233eaed4ea425ebb9e12ade38a83718770ee
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Fri Mar 13 09:27:22 2015 -0300
+
+    Sede's url validation + test
+
+commit 45439e90b3763fa7b3a35a58d0b76926090c80ce
+Merge: 7616250 255ad0f
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Thu Mar 12 14:39:39 2015 -0300
+
+    Merge branch 'master' into sedes
+    
+    Conflicts:
+    	eventoL/urls.py
+    	manager/admin.py
+    	manager/api/urls.py
+    	manager/models.py
+    	manager/views.py
+
+commit 761625075228db595335f89fa1470769b1685b57
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Thu Mar 12 14:27:12 2015 -0300
+
+    Added url field to Sede object
+
+commit 255ad0f462958de4694bdbb9970eb32f576dba80
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Thu Mar 12 13:57:13 2015 -0300
+
+    update django from 1.7.5 to 1.7.6 and installation instructions
+
+commit 4254921d7d8f0d7bc32c4037ee6dd2845383db93
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Thu Mar 12 13:45:25 2015 -0300
+
+    Updated status widget
+
+commit 37e94dee32695ef4eb37d6ef86e40991c8af5189
+Merge: cb05d3a 39ab5fe
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Thu Mar 12 13:40:27 2015 -0300
+
+    Merge pull request #11 from FedeG/develop
+    
+    Primeros Detalles
+
+commit 39ab5feede679fcaf9fdd5b3ded08395c8cdecaf
+Author: FedeG <federicog@exo.com.ar>
+Date:   Thu Mar 12 12:54:21 2015 -0300
+
+    Reformat file 2
+
+commit b7be19c2a9b0f29abffde73aa360fdab4432008b
+Author: FedeG <federicog@exo.com.ar>
+Date:   Thu Mar 12 12:28:12 2015 -0300
+
+    Reformat code
+
+commit 61133629d6f64b432be2e7a496586e1d2eee352a
+Author: FedeG <federicog@exo.com.ar>
+Date:   Thu Mar 12 12:07:44 2015 -0300
+
+    Parámetros de mas
+
+commit a69aa87286092cb0c276c11bd4d908c327ecc7fb
+Author: FedeG <federicog@exo.com.ar>
+Date:   Thu Mar 12 12:06:20 2015 -0300
+
+    Cambio a sorted_choices
+
+commit bf00944995face50b24f3f28c9911a2d5662240c
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Thu Mar 12 10:54:27 2015 -0300
+
+    Inicio de multisede y homepage (WIP)
+
+commit f3c280d148dcc8e87f09e6c3d2430c4dcff17a04
+Author: fedeG <federicogonzalez761@gmail.com>
+Date:   Tue Mar 10 06:43:31 2015 -0300
+
+    Agrego Grapelli al README
+
+commit d4610239f9c04bd24105fa444c330a967eb169ff
+Author: fedeG <federicogonzalez761@gmail.com>
+Date:   Tue Mar 10 06:43:05 2015 -0300
+
+    Agrego Grapelli para admin de django
+
+commit 4ffc966812853deb48b8c51dcd03b8866c435419
+Author: fedeG <federicogonzalez761@gmail.com>
+Date:   Tue Mar 10 00:09:01 2015 -0300
+
+    Refactor y reformateo de codigo
+
+commit 75a78329fbd3a0f9414afad53db9b959c6f56442
+Author: fedeG <federicogonzalez761@gmail.com>
+Date:   Tue Mar 10 00:06:22 2015 -0300
+
+    Refactor y reformateo de codigo
+
+commit 63c305761eb5fc58f48d2eaa60b4cc4c6b7c7e69
+Author: fedeG <federicogonzalez761@gmail.com>
+Date:   Mon Mar 9 23:01:38 2015 -0300
+
+    Cambio final de tamaño
+
+commit 64d88edf3f373e1d9d41c3b41c26c28fb55eb76a
+Author: fedeG <federicogonzalez761@gmail.com>
+Date:   Mon Mar 9 23:00:09 2015 -0300
+
+    Cambio de tamaño de imagen
+
+commit 3e655855bd6967f08c5f2afe725ed48ad5ed4c72
+Author: fedeG <federicogonzalez761@gmail.com>
+Date:   Mon Mar 9 22:56:38 2015 -0300
+
+    Cambio de tamaño del logo
+
+commit f0ccbf7a9adbd4feb9f9fca08acfeaf7d88ccd7f
+Author: fedeG <federicogonzalez761@gmail.com>
+Date:   Mon Mar 9 22:50:58 2015 -0300
+
+    Nuevos logos
+
+commit e8ca8d16b3d7699a2e5400540aa2a23dd91e6cf7
+Merge: 16527f6 cb05d3a
+Author: FedeG <federicog@exo.com.ar>
+Date:   Mon Mar 9 13:05:09 2015 -0300
+
+    Merge branch 'master' of github.com:reyiyo/eventoL into develop
+
+commit cb05d3a384ef5b13451e91c21cefd7206883be0d
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Mon Mar 9 09:42:24 2015 -0300
+
+    Code reformat
+
+commit 8f1ea8fcbed29cecbf6f8ad74a36385e67fc89e1
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Mar 8 05:23:57 2015 -0300
+
+    Updated python dependencies (now working with django 1.7 without south)
+
+commit 94c09e19cbf7603a73c2de1a90df68b1863e5411
+Author: Sergio Orbe <sergioo@exo.com.ar>
+Date:   Sun Mar 8 02:35:32 2015 -0300
+
+    Update readme with installation instructions and requirements
+
+commit 16527f66b368924d350634194ca5519a2c25616b
+Author: Federico Gonzalez <federicogonzalez761@gmail.com>
+Date:   Wed Nov 5 15:15:09 2014 -0300
+
+    Update README.md
+
+commit 42cb91f117dcd99531bf0b66c8f99d4853a58534
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Thu Apr 24 04:35:14 2014 -0300
+
+    Added filter is_checkbox for fields in templates and field "read guidelines" for installers
+
+commit 62fe3376d4a8c47bce3bd152f64e63eff628886e
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Thu Apr 24 03:00:28 2014 -0300
+
+    Added assistence to the event administration
+
+commit 84508ebcc54d97be1603c86d5800f82470137bcc
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Fri Apr 18 14:01:19 2014 -0300
+
+    added metadata for social networks share
+
+commit 4035f8925b4f18887eaed5298838de6936944c73
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Fri Apr 18 14:00:59 2014 -0300
+
+    Added dummy_talk option to talks and added possibility for an assistant to register for more than one sede
+
+commit 08dfd51c7b6332206f9ad82394a8f157cb16709d
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Thu Apr 17 16:18:45 2014 -0300
+
+    Don't show talk proposals without images in homepage & fix problem with schedule
+
+commit 52cf3de5d345bb2bdc98a21c28ea2ef0255ad7dd
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Thu Apr 17 16:17:49 2014 -0300
+
+    Fix problem with talk details
+
+commit e2bf4e553e3c4e7cfe66cdf4ebdc8864c186963b
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Thu Apr 17 16:17:18 2014 -0300
+
+    Improved registration form
+
+commit d8930544aae27b969e33b8ed5e6a50dee9454035
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Tue Apr 15 19:32:11 2014 -0300
+
+    Add talk details and schedule table improvements
+
+commit aa28722a0b1381481b4eeafac9d3eec985886f76
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Mon Apr 14 22:15:05 2014 -0300
+
+    change logos to base template
+
+commit 5920d0576a7b86fd1acd4b93fb7769e9028fedca
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sat Apr 12 21:55:37 2014 -0300
+
+    Added time_availability field and mandatory email for collaborators
+
+commit 7482a5900e9662020836c1dab8ec4c7a5d8264ce
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sat Apr 12 20:29:49 2014 -0300
+
+    Added unique constraint to attendant's email and model names with translation
+
+commit efd2cb1e0b05ce9d278df8ef81fffba08e26f008
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sat Apr 12 19:53:10 2014 -0300
+
+    Added is_going_to_install and additional_info field in Attendant
+
+commit 455d2bdbc7a8d9acbafa09fe5fa0f562c2607153
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sat Apr 12 17:22:02 2014 -0300
+
+    added South for schema migration
+
+commit 662bf31a19c3c1404a0070b5cd9a9c954b89aa5c
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sat Apr 12 16:40:21 2014 -0300
+
+    js and css from cdns
+
+commit 1659976581ba7fae5eedcdfe213163ab3ab79ce3
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sat Apr 12 16:39:20 2014 -0300
+
+    favicon
+
+commit 1d1c0143d989d92c7c6eec1a27a664040dca74ac
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sat Apr 12 16:29:05 2014 -0300
+
+    added helptext in multiple-model-form
+
+commit 07ea098ec4f4bbf9caec0cf0ca0b7b8a102de5ba
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sat Apr 12 16:21:57 2014 -0300
+
+    Fixed typo in translation
+
+commit 2274659dcb509d2d67f0984f74918f8bf11dc272
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sat Apr 12 16:11:13 2014 -0300
+
+    Add via libre and hacklab barracas logo
+
+commit 9d682b536a68fa91edeb8608babfe0a9e035f559
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sat Apr 12 16:06:49 2014 -0300
+
+    add github repo link in footer
+
+commit 8ec9997a03262d6987edd7ffada1744faa5e976d
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sun Apr 6 17:45:43 2014 -0300
+
+    Update spanish translations
+
+commit 748ed93b1181a0796fa8635768ad6540f800ca0c
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sun Apr 6 17:45:18 2014 -0300
+
+    Fix field name
+
+commit bdc53b3b9564848523dfc44656f5195fad4ae4b8
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sun Apr 6 17:25:32 2014 -0300
+
+    Updated FAQ
+
+commit 46161dec78379e3df2d7b423182fe2bd04fcc9ff
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sat Apr 5 18:38:53 2014 -0300
+
+    Added collaborating communities
+
+commit 2092467e5f1c80dfe7387607462302cd615e19e3
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sat Apr 5 17:51:12 2014 -0300
+
+    add abstract to home page talks description
+
+commit e7a16b449c672c2ae7913168b1ef034871321040
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sat Apr 5 16:57:43 2014 -0300
+
+    workaround for low memmory machines
+
+commit 2b795c4277e33489e6c215d0ceb2750bb9b39ebf
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sat Apr 5 16:57:24 2014 -0300
+
+    Fix bug in list of countries
+
+commit 486cac03a076ff7b7b67b2cd85eb7f64add8ff73
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Sat Apr 5 15:41:00 2014 -0300
+
+    Provide popular linux distros as initial data for software
+
+commit e31ccb2c4a2f8512bb3815021c98bc351426808a
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Fri Apr 4 23:51:37 2014 -0300
+
+    Added autocomplete for Hardware Manufacturer on Installation Form
+
+commit 1e523b22ecc988246c2ba21c855df5c962abb699
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Fri Apr 4 23:04:11 2014 -0300
+
+    Added autocomplete for attendants in installation
+
+commit d03d04bc647255908b7d3b0c16358700d059c57b
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Thu Mar 20 18:05:28 2014 -0300
+
+    Fix error in urls
+
+commit 99fc05d011e5df021c7e4da2f858d7953b59563d
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Thu Mar 20 14:34:50 2014 -0300
+
+    Image optimization for web
+
+commit 64f280ef9bbb3447da2b40e66bb6770c63170c7d
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Wed Mar 19 07:24:31 2014 -0300
+
+    Updated .gitignore
+
+commit d0b6430940b804886f45b9687ac865d3ccd1ef8e
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Wed Mar 19 07:22:01 2014 -0300
+
+    First dev version :)
+
+commit b8e2efb66bcebf2d44462f5b32c86256e5bc8a04
+Author: Sergio Orbe <reyiyo@gmail.com>
+Date:   Tue Mar 18 10:59:02 2014 -0700
+
+    Initial commit
