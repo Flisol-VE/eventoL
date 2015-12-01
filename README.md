@@ -3,6 +3,8 @@ eventoL
 eventoL is a conference and install fest management software initially developed to manage [FLISoL][1] conference.
 It is in developement state and this year (2014) is going to be used for managing the Buenos Aires City FLISoL as a test.
 
+eventoL es un software de gestión para manejar el [FLISoL][1]. Está en Desarrollo desde el año 2014, y está siendo utilizado como prueba en el FLISoL de la Ciudad de Buenos Aires.
+
 Status
 -------
 
