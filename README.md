@@ -14,8 +14,8 @@ Status
 
 Features
 --------------
-Actually supports:
-- Attendee registration whith email confirmation.
+Current support:
+- Attendee registration with email confirmation.
 - Collaborators registration.
 - Installers registration.
 - Attendees and collaborators registration made by another collaborator, to register people the same day of the event.
@@ -26,6 +26,17 @@ Actually supports:
 - Collaborators and installers authentication.
 - Submit an installation with hardware and software info.
 - Full internationalization and localization support.
+ 
+
+Características
+--------------
+Soporte actual:
+- Registro de asistentes con la confirmación de correo electrónico.
+- Registro de colaboradores.
+- Registro de Instaladores.
+- Asistentes y colaboradores de registro presentados por otro colaborador, registrando las personas el mismo día del evento.
+- Marcar participante pre-registrado que esté presente (que efectivamente haya asistidoal evento)
+
 
 Future
 -------
