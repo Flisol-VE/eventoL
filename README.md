@@ -3,6 +3,8 @@ eventoL
 eventoL is a conference and install fest management software initially developed to manage [FLISoL][1] conference.
 It is in developement state and this year (2014) is going to be used for managing the Buenos Aires City FLISoL as a test.
 
+eventoL es un software de gestión para manejar el [FLISoL][1]. Está en Desarrollo desde el año 2014, y está siendo utilizado como prueba en el FLISoL de la Ciudad de Buenos Aires.
+
 Status
 -------
 
@@ -12,8 +14,8 @@ Status
 
 Features
 --------------
-Actually supports:
-- Attendee registration whith email confirmation.
+Current support:
+- Attendee registration with email confirmation.
 - Collaborators registration.
 - Installers registration.
 - Attendees and collaborators registration made by another collaborator, to register people the same day of the event.
@@ -24,6 +26,17 @@ Actually supports:
 - Collaborators and installers authentication.
 - Submit an installation with hardware and software info.
 - Full internationalization and localization support.
+ 
+
+Características
+--------------
+Soporte actual:
+- Registro de asistentes con la confirmación de correo electrónico.
+- Registro de colaboradores.
+- Registro de Instaladores.
+- Asistentes y colaboradores de registro presentados por otro colaborador, registrando las personas el mismo día del evento.
+- Marcar participante pre-registrado que esté presente (que efectivamente haya asistidoal evento)
+
 
 Future
 -------
