@@ -31,11 +31,12 @@ Current support:
 Características
 --------------
 Soporte actual:
+
 - Registro de asistentes con la confirmación de correo electrónico.
 - Registro de colaboradores.
 - Registro de Instaladores.
 - Asistentes y colaboradores de registro presentados por otro colaborador, registrando las personas el mismo día del evento.
-- Marcar participante pre-registrado que esté presente (que efectivamente haya asistidoal evento)
+- Marcar participante pre-registrado que esté presente (que efectivamente haya asistido al evento)
 
 
 Future
