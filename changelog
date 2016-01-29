@@ -1,4 +1,60 @@
-commit eb8742ae1b6d749db167a9056b14adb06fe1a926 (HEAD, origin/master, origin/HEAD, master)
+commit a99f1bd0be90ff1aa15b1e60a458f13c1c9b3f88 (HEAD, origin/master, origin/HEAD, master)
+Author: Xombra <xombra.com@gmail.com>
+Date:   Thu Jan 28 22:01:22 2016 -0430
+
+    * cambio
+
+commit 3bb45fd44c7d5b586eb3d62aa5f64e9cb03e22fc
+Merge: 710e582 49f599c
+Author: Xombra <xombra.com@gmail.com>
+Date:   Wed Dec 2 23:53:13 2015 -0430
+
+    Merge branch 'master' of https://github.com/Flisol-VE/eventoL
+
+commit 49f599c74ee1d9ca3b4fb7bd9b43c6c457f0dc86
+Author: Hector A. Mantellini <xombra@users.noreply.github.com>
+Date:   Wed Dec 2 09:39:07 2015 -0430
+
+    Traducción al español
+
+commit 2b9a0b57cc7faa130e094c9607e098712fbb390e
+Author: Hector A. Mantellini <xombra@users.noreply.github.com>
+Date:   Tue Dec 1 18:35:16 2015 -0430
+
+    Traduciendo al español el readme
+
+commit 710e58213eaf9adfa8ae0ae0c23146ef8bf0d901
+Merge: fa17f32 2b4f27d
+Author: Xombra <xombra.com@gmail.com>
+Date:   Sat Nov 28 14:05:43 2015 -0430
+
+    Merge branch 'master' of https://github.com/Flisol-VE/eventoL
+
+commit 2b4f27d0ef7b07ede5d4af242d48b848d8fe679b
+Author: Hector A. Mantellini <xombra@users.noreply.github.com>
+Date:   Sat Nov 28 14:04:57 2015 -0430
+
+    Update README.md
+
+commit e9faa862069b2e0869c7128bf53787b0f53f3dff
+Author: Hector A. Mantellini <xombra@users.noreply.github.com>
+Date:   Sat Nov 28 14:04:04 2015 -0430
+
+    Update README.md
+
+commit 16fa164e128bcbea310ffdd94ae9338b8059d3fa
+Author: Hector A. Mantellini <xombra@users.noreply.github.com>
+Date:   Sat Nov 28 14:02:27 2015 -0430
+
+    Inclusión de travis
+
+commit fa17f32d79d4af3bafdce3feafd0a0bb83b14e24
+Author: Xombra <xombra.com@gmail.com>
+Date:   Sat Nov 28 13:53:21 2015 -0430
+
+    * changelog
+
+commit eb8742ae1b6d749db167a9056b14adb06fe1a926
 Author: Xombra <xombra.com@gmail.com>
 Date:   Sat Nov 28 13:52:36 2015 -0430
 
